@@ -9,14 +9,11 @@ from flask import Flask, request, jsonify
 from pymongo import MongoClient
 from dotenv import load_dotenv
 from llm import get_embedding
+from db import db
 
 load_dotenv()
 
 app = Flask(__name__)
-
-# Global connections
-mongo_client = MongoClient(os.getenv('MONGO_URL', 'mongodb://localhost:27017'))
-db = mongo_client[os.getenv('DATABASE_NAME', 'rag_system')]
 
 
 def vector_search_chunks(query_vector: List[float], limit: int = 10) -> List[Dict]:

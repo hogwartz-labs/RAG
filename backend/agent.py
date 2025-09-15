@@ -14,7 +14,7 @@ import re
 
 # Import your existing modules
 from llm import llm
-from retriever import retrieve_relevant_chunks
+from db import retrieve_relevant_chunks
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -38,18 +38,9 @@ class AdvancedRAGRetriever:
         """Generate 3 diverse subqueries for comprehensive retrieval"""
         
         subquery_prompt = f"""
-
-        Your are an expert research assistant working for LifeCell International , an Indian biotechnology company (founded in 2004) that offers stem cell banking services. You are tasked with generating 3 subqueries for the userquery to perform RAG.
-    Stem cells are special human cells that can develop into many different types of cells (like muscle cells, brain cells, blood cells, etc.).
-
-They act like the body’s raw materials — whenever the body needs repair, these cells can divide and create new, specialized cells.
-<task>
-Generate 3 diverse and complementary subqueries based on the original user query. These subqueries should:
-1. Cover different aspects or perspectives of the original question
-2. Use different keywords and terminology 
-3. Help retrieve comprehensive information to answer the original query
-4. Be specific enough to find relevant documents
-</task>
+      Generate 3 search queries to search for to answer the user's question. \
+These search queries should be diverse in nature - do not generate \
+repetitive ones.
 
 <original_query>
 {original_query}
@@ -163,7 +154,7 @@ Generate the subqueries now:
         
         for chunk in chunks:
             # Use enriched_content if available, otherwise content
-            content = chunk.get('enriched_content') or chunk.get('content', '')
+            content = chunk.get('content', '')
             content_length = len(content)
             
             if total_length + content_length <= self.max_context_length:
@@ -183,9 +174,9 @@ Generate the subqueries now:
         context_parts = []
         
         for i, chunk in enumerate(chunks, 1):
-            content = chunk.get('enriched_content') or chunk.get('content', '')
+            content = chunk.get('content', '')
             score = chunk.get('score', 0)
-            source = chunk.get('metadata', {}).get('source_url', 'Unknown Source')
+            source = chunk.get('metadata', {}).get('url', 'Unknown Source')
             title = chunk.get('metadata', {}).get('title', 'Unknown Title')
             
             context_part = f"""
@@ -202,19 +193,10 @@ Generate the subqueries now:
         
         answer_prompt = f"""
 <task>
-Your are an expert research assistant working for LifeCell International , an Indian biotechnology company (founded in 2004) that offers stem cell banking services. 
-Stem cells are special human cells that can develop into many different types of cells (like muscle cells, brain cells, blood cells, etc.).
-
-They act like the body’s raw materials — whenever the body needs repair, these cells can divide and create new, specialized cells. Provide a comprehensive, accurate, and well-structured answer to the user's query using the provided context chunks. These chunks were retrieved using multiple subqueries to ensure comprehensive coverage.
+Your are an expert research assistant working for The Graph is a blockchain data solution that powers applications, analytics, and AI on 90+ chains.\
+The Graph's core products include the Token API for web3 apps, Subgraphs for indexing smart contracts, \
+and Substreams for real-time and historical data streaming.
 </task>
-
-<original_query>
-{original_query}
-</original_query>
-
-<retrieved_context>
-{context}
-</retrieved_context>
 
 <instructions>
 1. Synthesize information from ALL relevant context chunks
@@ -233,6 +215,14 @@ They act like the body’s raw materials — whenever the body needs repair, the
 <output_format>
 Your comprehensive answer here, well-structured and drawing from the provided context with inline citations.
 </output_format>
+
+<retrieved_context>
+{context}
+</retrieved_context>
+
+<original_query>
+{original_query}
+</original_query>
 
 Generate your response now:
 """

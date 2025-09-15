@@ -7,6 +7,8 @@ import logging
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
 
+from db import initialize_connections
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 import asyncio
@@ -19,6 +21,23 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+@app.on_event("startup")
+def startup_event():
+    """Initialize DB connections on startup."""
+    try:
+        logger.info("Initializing database connections...")
+        initialize_connections()
+        logger.info("Database connections initialized successfully.")
+    except Exception as e:
+        logger.error(f"Failed to initialize connections: {e}")
+        raise
+
+
+@app.on_event("shutdown")
+async def shutdown_event():
+    """Optional: close DB connections on shutdown if needed."""
+    logger.info("Shutting down application...")
 
 @app.get("/")
 def read_root():
