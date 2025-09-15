@@ -2,7 +2,7 @@ from download import fetch_sitemap_pages
 from chunker import chunk_markdown_page
 from datetime import datetime
 from llm import get_embedding
-from db import save_chunk_to_mongo, initialize_connections, create_indexes, save_document_to_mongo
+from backend.db import save_chunk_to_mongo, initialize_connections, create_indexes, save_document_to_mongo
 
 # Setup logging
 import logging
