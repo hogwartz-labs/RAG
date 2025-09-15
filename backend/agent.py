@@ -13,8 +13,8 @@ from datetime import datetime
 import re
 
 # Import your existing modules
-from call_processing.llm import llm_rag as llm
-from rag.retriever import retrieve_relevant_chunks
+from llm import llm
+from retriever import retrieve_relevant_chunks
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)

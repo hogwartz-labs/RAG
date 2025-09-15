@@ -1,8 +1,8 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from typing import List
-from rag.agent import AdvancedRAGRetriever
-from rag.retriever import QueryRequest
+from agent import AdvancedRAGRetriever
+from retriever import QueryRequest
 import logging
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse

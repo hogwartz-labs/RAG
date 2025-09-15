@@ -8,6 +8,7 @@ from typing import List, Dict
 from flask import Flask, request, jsonify
 from pymongo import MongoClient
 from dotenv import load_dotenv
+from llm import get_embedding
 
 load_dotenv()
 
@@ -17,13 +18,6 @@ app = Flask(__name__)
 mongo_client = MongoClient(os.getenv('MONGO_URL', 'mongodb://localhost:27017'))
 db = mongo_client[os.getenv('DATABASE_NAME', 'rag_system')]
 
-def get_embedding(text: str) -> List[float]:
-    """Get embedding using the llm module"""
-    try:
-        from llm import get_embedding as llm_get_embedding
-        return llm_get_embedding(text)
-    except Exception:
-        return []
 
 def vector_search_chunks(query_vector: List[float], limit: int = 10) -> List[Dict]:
     """Perform MongoDB vector search and join with documents"""

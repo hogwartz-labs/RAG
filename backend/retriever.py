@@ -1,8 +1,9 @@
+from dotenv import load_dotenv
+load_dotenv()
+from llm import get_embedding
 from fastapi import  HTTPException
 from pydantic import BaseModel
 from typing import List, Dict, Any
-from dotenv import load_dotenv
-load_dotenv()
 from db.mongodb import db 
 import logging
 from bson import ObjectId
@@ -55,16 +56,6 @@ def serialize_mongodb_doc(doc: dict) -> dict:
     
     return serialized
 
-def get_embedding(text: str) -> List[float]:
-    """Get embedding using the llm module"""
-    try:
-        from call_processing.llm import get_embedding as llm_get_embedding
-        embedding = llm_get_embedding(text)
-        print(f"Generated embedding with {len(embedding)} dimensions")
-        return embedding
-    except Exception as e:
-        logger.error(f"Error getting embedding: {str(e)}")
-        return []
 
 def check_collection_status():
     """Debug function to check collection and index status"""
