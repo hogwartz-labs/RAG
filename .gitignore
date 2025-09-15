@@ -1,0 +1,12 @@
+env/
+**/__pycache__
+
+.env
+
+recordings/*
+*.log
+
+*node_modules*
+
+prompts.json
+**/*.txt

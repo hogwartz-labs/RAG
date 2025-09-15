@@ -1,0 +1,2402 @@
+{
+  "extraction_date": "2025-09-07 11:23:14",
+  "total_links": 479,
+  "source_url": "https://www.lifecell.in/blog",
+  "links": [
+    {
+      "url": "https://www.lifecell.in/blog/stem-cells",
+      "title": "Stem Cell Storage",
+      "html": "<a href=\"/blog/stem-cells\"><button type=\"submit\" class=\"rounded-lg text-[14px] text-[#fff] mx-[4px] my-[2px] px-[10px] py-[4px] bg-[#b9b9b9]\">Stem Cell Storage</button></a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-clinic",
+      "title": "Health Clinic",
+      "html": "<a href=\"/blog/health-clinic\"><button type=\"submit\" class=\"rounded-lg text-[14px] text-[#fff] mx-[4px] my-[2px] px-[10px] py-[4px] bg-[#b9b9b9]\">Health Clinic</button></a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check",
+      "title": "Health Check",
+      "html": "<a href=\"/blog/health-check\"><button type=\"submit\" class=\"rounded-lg text-[14px] text-[#fff] mx-[4px] my-[2px] px-[10px] py-[4px] bg-[#b9b9b9]\">Health Check</button></a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank",
+      "title": "Health Bank",
+      "html": "<a href=\"/blog/health-bank\"><button type=\"submit\" class=\"rounded-lg text-[14px] text-[#fff] mx-[4px] my-[2px] px-[10px] py-[4px] bg-[#b9b9b9]\">Health Bank</button></a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-and-nutrition",
+      "title": "Health & Nutrition",
+      "html": "<a href=\"/blog/health-and-nutrition\"><button type=\"submit\" class=\"rounded-lg text-[14px] text-[#fff] mx-[4px] my-[2px] px-[10px] py-[4px] bg-[#b9b9b9]\">Health &amp; Nutrition</button></a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general",
+      "title": "General",
+      "html": "<a href=\"/blog/general\"><button type=\"submit\" class=\"rounded-lg text-[14px] text-[#fff] mx-[4px] my-[2px] px-[10px] py-[4px] bg-[#b9b9b9]\">General</button></a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/pregnancy",
+      "title": "Pregnancy",
+      "html": "<a href=\"/blog/pregnancy\"><button type=\"submit\" class=\"rounded-lg text-[14px] text-[#fff] mx-[4px] my-[2px] px-[10px] py-[4px] bg-[#b9b9b9]\">Pregnancy</button></a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/is-it-perimenopause-or-a-thyroid-condition",
+      "title": "Is It Perimenopause Or A Thyroid Condition?",
+      "html": "<a href=\"/blog/health-check/is-it-perimenopause-or-a-thyroid-condition\">Is It Perimenopause Or A Thyroid Condition?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/thyroid-stimulating-hormone-all-you-need-to-know-about-tsh",
+      "title": "Thyroid Stimulating Hormone - All You Need To Know About TSH",
+      "html": "<a href=\"/blog/health-check/thyroid-stimulating-hormone-all-you-need-to-know-about-tsh\">Thyroid Stimulating Hormone - All You Need To Know About TSH</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/anterior-placenta",
+      "title": "What Is Anterior Placenta & How It Affects Your Pregnancy",
+      "html": "<a href=\"/blog/health-bank/anterior-placenta\">What Is Anterior Placenta &amp; How It Affects Your Pregnancy</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-and-nutrition/fruits-to-avoid-during-pregnancy",
+      "title": "Fruits to Avoid During Pregnancy",
+      "html": "<a href=\"/blog/health-and-nutrition/fruits-to-avoid-during-pregnancy\">Fruits to Avoid During Pregnancy</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/hereditary-cancer-screening",
+      "title": "Hereditary Cancer Screening: Why Early Detection Can Save Lives",
+      "html": "<a href=\"/blog/health-check/hereditary-cancer-screening\">Hereditary Cancer Screening: Why Early Detection Can Save Lives</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/pregnancy/2-weeks-pregnant",
+      "title": "2 Weeks Pregnant Symptoms, Baby Size, Foods To Eat & Tips",
+      "html": "<a href=\"/blog/pregnancy/2-weeks-pregnant\">2 Weeks Pregnant Symptoms, Baby Size, Foods To Eat &amp; Tips</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/pregnancy/5-weeks-pregnant",
+      "title": "5 Weeks Pregnant: What To Expect & How Your Baby Is Growing",
+      "html": "<a href=\"/blog/pregnancy/5-weeks-pregnant\">5 Weeks Pregnant: What To Expect &amp; How Your Baby Is Growing</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/pregnancy/24-weeks-pregnant",
+      "title": "24 Weeks Pregnant: What to Expect at Six Months?",
+      "html": "<a href=\"/blog/pregnancy/24-weeks-pregnant\">24 Weeks Pregnant: What to Expect at Six Months?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/pregnancy/8-weeks-pregnant",
+      "title": "8 Weeks Pregnant: Symptoms, Advice And More!",
+      "html": "<a href=\"/blog/pregnancy/8-weeks-pregnant\">8 Weeks Pregnant: Symptoms, Advice And More!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/pregnancy/13-weeks-pregnant",
+      "title": "13 Weeks Pregnant & Beyond: What’s Next For You & Baby",
+      "html": "<a href=\"/blog/pregnancy/13-weeks-pregnant\">13 Weeks Pregnant &amp; Beyond: What’s Next For You &amp; Baby</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/pregnancy/16-weeks-pregnant",
+      "title": "16 Weeks Pregnant: Symptoms, Baby Size & Ultrasound Insights",
+      "html": "<a href=\"/blog/pregnancy/16-weeks-pregnant\">16 Weeks Pregnant: Symptoms, Baby Size &amp; Ultrasound Insights</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/mood-swings-during-pregnancy",
+      "title": "Mood Swings During Pregnancy: Causes, Tips, & When To Seek Help",
+      "html": "<a href=\"/blog/general/mood-swings-during-pregnancy\">Mood Swings During Pregnancy: Causes, Tips, &amp; When To Seek Help</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/stem-cells/umbilical-cord-blood-stem-cells-advantages-and-disadvantages",
+      "title": "Advantages & Disadvantages Of Cord Blood Banking: Everything You Need To Know",
+      "html": "<a href=\"/blog/stem-cells/umbilical-cord-blood-stem-cells-advantages-and-disadvantages\">Advantages &amp; Disadvantages Of Cord Blood Banking: Everything You Need To Know</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/stem-cells/what-are-stem-cells",
+      "title": "What are Stem Cells? Types, Uses & Sources of Stem Cells",
+      "html": "<a href=\"/blog/stem-cells/what-are-stem-cells\">What are Stem Cells? Types, Uses &amp; Sources of Stem Cells</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/breast-pain-during-pregnancy",
+      "title": "Is Breast Pain During Pregnancy Normal? Here’s What You Need To Know",
+      "html": "<a href=\"/blog/general/breast-pain-during-pregnancy\">Is Breast Pain During Pregnancy Normal? Here’s What You Need To Know</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/dengue-vs-malaria",
+      "title": "Dengue Vs. Malaria: Key Differences In Symptoms, Diagnosis & Treatment",
+      "html": "<a href=\"/blog/health-check/dengue-vs-malaria\">Dengue Vs. Malaria: Key Differences In Symptoms, Diagnosis &amp; Treatment</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/fatty-liver-disease",
+      "title": "Fatty Liver Disease: The Silent Threat You Shouldn’t Ignore",
+      "html": "<a href=\"/blog/health-check/fatty-liver-disease\">Fatty Liver Disease: The Silent Threat You Shouldn’t Ignore</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/viral-vs-bacterial-infections",
+      "title": "Viral Vs Bacterial Infections: Symptoms, Tests & Treatment",
+      "html": "<a href=\"/blog/health-check/viral-vs-bacterial-infections\">Viral Vs Bacterial Infections: Symptoms, Tests &amp; Treatment</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/dengue-fever-testing",
+      "title": "Dengue Fever Testing: When & How To Get Tested",
+      "html": "<a href=\"/blog/health-check/dengue-fever-testing\">Dengue Fever Testing: When &amp; How To Get Tested</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/pregnancy/35-weeks-pregnant",
+      "title": "35 Weeks Pregnant: Is It Safe For The Baby To Arrive?",
+      "html": "<a href=\"/blog/pregnancy/35-weeks-pregnant\">35 Weeks Pregnant: Is It Safe For The Baby To Arrive?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/pregnancy/36-weeks-pregnant",
+      "title": "36 Weeks Pregnant: Is It Almost Time? Here’s What You Need to Know",
+      "html": "<a href=\"/blog/pregnancy/36-weeks-pregnant\">36 Weeks Pregnant: Is It Almost Time? Here’s What You Need to Know</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/pregnancy/34-weeks-pregnant",
+      "title": "34 Weeks Pregnant: Baby’s Almost Here—Are You Ready?",
+      "html": "<a href=\"/blog/pregnancy/34-weeks-pregnant\">34 Weeks Pregnant: Baby’s Almost Here—Are You Ready?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/pregnancy/33-weeks-pregnant",
+      "title": "33 Weeks Pregnant: Symptoms, Baby Growth & What to Expect",
+      "html": "<a href=\"/blog/pregnancy/33-weeks-pregnant\">33 Weeks Pregnant: Symptoms, Baby Growth &amp; What to Expect</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/pregnancy/32-weeks-pregnant",
+      "title": "From Bump To Birth: Milestones At 32 Weeks Pregnant",
+      "html": "<a href=\"/blog/pregnancy/32-weeks-pregnant\">From Bump To Birth: Milestones At 32 Weeks Pregnant</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/pregnancy/31-weeks-pregnant",
+      "title": "31 Weeks Pregnant: Key Takeaways & What To Expect",
+      "html": "<a href=\"/blog/pregnancy/31-weeks-pregnant\">31 Weeks Pregnant: Key Takeaways &amp; What To Expect</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/pregnancy/30-weeks-pregnant",
+      "title": "Countdown Begins: 30 Weeks Pregnant & Ready For The Final Stretch",
+      "html": "<a href=\"/blog/pregnancy/30-weeks-pregnant\">Countdown Begins: 30 Weeks Pregnant &amp; Ready For The Final Stretch</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/pregnancy/29-weeks-pregnant",
+      "title": "29 Weeks Pregnant: What to Expect, Symptoms, and Tips for a Healthy Pregnancy",
+      "html": "<a href=\"/blog/pregnancy/29-weeks-pregnant\">29 Weeks Pregnant: What to Expect, Symptoms, and Tips for a Healthy Pregnancy</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/pregnancy/28-weeks-pregnant",
+      "title": "28 Weeks Pregnant Checklist: What You Need to Know This Week",
+      "html": "<a href=\"/blog/pregnancy/28-weeks-pregnant\">28 Weeks Pregnant Checklist: What You Need to Know This Week</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/pregnancy/27-weeks-pregnant",
+      "title": "27 Weeks Pregnant: Baby Update & Tips",
+      "html": "<a href=\"/blog/pregnancy/27-weeks-pregnant\">27 Weeks Pregnant: Baby Update &amp; Tips</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/pregnancy/26-weeks-pregnant",
+      "title": "26 Weeks Pregnant: Milestones, Symptoms & Baby Size",
+      "html": "<a href=\"/blog/pregnancy/26-weeks-pregnant\">26 Weeks Pregnant: Milestones, Symptoms &amp; Baby Size</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/pregnancy/25-weeks-pregnant",
+      "title": "25 Weeks Pregnant: Baby Development, Symptoms & Tips for Moms-to-Be",
+      "html": "<a href=\"/blog/pregnancy/25-weeks-pregnant\">25 Weeks Pregnant: Baby Development, Symptoms &amp; Tips for Moms-to-Be</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/pregnancy/23-weeks-pregnant",
+      "title": "23 Weeks Pregnant: Milestones, Movement & More",
+      "html": "<a href=\"/blog/pregnancy/23-weeks-pregnant\">23 Weeks Pregnant: Milestones, Movement &amp; More</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/pregnancy/22-weeks-pregnant",
+      "title": "22 Weeks Pregnant: Symptoms, Baby Size & Your Growing Bump",
+      "html": "<a href=\"/blog/pregnancy/22-weeks-pregnant\">22 Weeks Pregnant: Symptoms, Baby Size &amp; Your Growing Bump</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/pregnancy/21-weeks-pregnant",
+      "title": "21 Weeks Pregnant: Baby Development, Symptoms, and Tips for a Healthy Pregnancy",
+      "html": "<a href=\"/blog/pregnancy/21-weeks-pregnant\">21 Weeks Pregnant: Baby Development, Symptoms, and Tips for a Healthy Pregnancy</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/pregnancy/20-weeks-pregnant",
+      "title": "20 Weeks Pregnant: Halfway There and Feeling It!",
+      "html": "<a href=\"/blog/pregnancy/20-weeks-pregnant\">20 Weeks Pregnant: Halfway There and Feeling It!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/pregnancy/19-weeks-pregnant",
+      "title": "19 Weeks Pregnant: What to Expect & How Your Baby is Growing",
+      "html": "<a href=\"/blog/pregnancy/19-weeks-pregnant\">19 Weeks Pregnant: What to Expect &amp; How Your Baby is Growing</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/pregnancy/18-weeks-pregnant",
+      "title": "18 Weeks Pregnant: A Full Guide To Your Baby & Body Changes",
+      "html": "<a href=\"/blog/pregnancy/18-weeks-pregnant\">18 Weeks Pregnant: A Full Guide To Your Baby &amp; Body Changes</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/pregnancy/17-weeks-pregnant",
+      "title": "17 Weeks Pregnant Guide: Symptoms, Belly, and Baby Development",
+      "html": "<a href=\"/blog/pregnancy/17-weeks-pregnant\">17 Weeks Pregnant Guide: Symptoms, Belly, and Baby Development</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/pregnancy/15-weeks-pregnant",
+      "title": "You are 15 Weeks Pregnant! Here’s What’s Happening This Week",
+      "html": "<a href=\"/blog/pregnancy/15-weeks-pregnant\">You are 15 Weeks Pregnant! Here’s What’s Happening This Week</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/pregnancy/14-weeks-pregnant",
+      "title": "14 Weeks Pregnant: From Bump to Baby Kicks!",
+      "html": "<a href=\"/blog/pregnancy/14-weeks-pregnant\">14 Weeks Pregnant: From Bump to Baby Kicks!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/pregnancy/12-weeks-pregnant",
+      "title": "12 Weeks Pregnant? Here's Everything You Should Know",
+      "html": "<a href=\"/blog/pregnancy/12-weeks-pregnant\">12 Weeks Pregnant? Here's Everything You Should Know</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/pregnancy/11-weeks-pregnant",
+      "title": "11 Weeks Pregnant: Symptoms, Baby Development & What to Expect",
+      "html": "<a href=\"/blog/pregnancy/11-weeks-pregnant\">11 Weeks Pregnant: Symptoms, Baby Development &amp; What to Expect</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/pregnancy/10-weeks-pregnant",
+      "title": "10 Weeks Pregnant? Expect These Changes To Your Body and Baby",
+      "html": "<a href=\"/blog/pregnancy/10-weeks-pregnant\">10 Weeks Pregnant? Expect These Changes To Your Body and Baby</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/pregnancy/9-weeks-pregnant",
+      "title": "9th Week of Pregnancy: Here’s What to Expect",
+      "html": "<a href=\"/blog/pregnancy/9-weeks-pregnant\">9th Week of Pregnancy: Here’s What to Expect</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/pregnancy/7-weeks-pregnant",
+      "title": "7th Week Of Pregnancy: What’s Up Baby?",
+      "html": "<a href=\"/blog/pregnancy/7-weeks-pregnant\">7th Week Of Pregnancy: What’s Up Baby?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/pregnancy/6-weeks-pregnant",
+      "title": "6th Week of Pregnancy Guide: Baby Development & What to Expect",
+      "html": "<a href=\"/blog/pregnancy/6-weeks-pregnant\">6th Week of Pregnancy Guide: Baby Development &amp; What to Expect</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/pregnancy/1-weeks-pregnant",
+      "title": "Your Pregnancy Journey - Week 1",
+      "html": "<a href=\"/blog/pregnancy/1-weeks-pregnant\">Your Pregnancy Journey - Week 1</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/pregnancy/3-weeks-pregnant",
+      "title": "What to Expect at 3 Weeks Pregnant: Early Signs and Symptoms",
+      "html": "<a href=\"/blog/pregnancy/3-weeks-pregnant\">What to Expect at 3 Weeks Pregnant: Early Signs and Symptoms </a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/pregnancy/4-weeks-pregnant",
+      "title": "4 Weeks Pregnant: Symptoms, Baby Development & Belly Size",
+      "html": "<a href=\"/blog/pregnancy/4-weeks-pregnant\">4 Weeks Pregnant: Symptoms, Baby Development &amp; Belly Size</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/thyroid-hormone-everything-you-need-to-know",
+      "title": "Thyroid Hormone - Everything You Need To Know",
+      "html": "<a href=\"/blog/health-check/thyroid-hormone-everything-you-need-to-know\">Thyroid Hormone - Everything You Need To Know</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/top-10-newborn-screening-tests",
+      "title": "Newborn Screening Tests: Top 10 Life-Saving Checks for Your Baby",
+      "html": "<a href=\"/blog/health-check/top-10-newborn-screening-tests\">Newborn Screening Tests: Top 10 Life-Saving Checks for Your Baby</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/chronic-endometritis",
+      "title": "Chronic Endometritis – Diagnosis, Symptoms and Treatment",
+      "html": "<a href=\"/blog/health-check/chronic-endometritis\">Chronic Endometritis – Diagnosis, Symptoms and Treatment</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/prenatal-screening-tests-every-parent-should-know",
+      "title": "Prenatal Screening Tests: What Every Parent Should Know",
+      "html": "<a href=\"/blog/health-check/prenatal-screening-tests-every-parent-should-know\">Prenatal Screening Tests: What Every Parent Should Know</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/annual-full-body-checkups",
+      "title": "Annual Full Body Checkups: Why They’re A Must For Preventive Healthcare",
+      "html": "<a href=\"/blog/health-check/annual-full-body-checkups\">Annual Full Body Checkups: Why They’re A Must For Preventive Healthcare</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/full-body-checkup-guide",
+      "title": "Full Body Checkup: Essential Test List And Complete Guide",
+      "html": "<a href=\"/blog/general/full-body-checkup-guide\">Full Body Checkup: Essential Test List And Complete Guide</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-and-nutrition/benefits-and-side-effects-of-saffron-during-pregnancy",
+      "title": "Benefits And Side Effects Of Saffron During Pregnancy",
+      "html": "<a href=\"/blog/health-and-nutrition/benefits-and-side-effects-of-saffron-during-pregnancy\">Benefits And Side Effects Of Saffron During Pregnancy </a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/food-intolerance-test-guide",
+      "title": "Food Intolerance Test: How It Works & Who Should Consider It",
+      "html": "<a href=\"/blog/health-check/food-intolerance-test-guide\">Food Intolerance Test: How It Works &amp; Who Should Consider It</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/7-habits-to-improve-your-liver-health",
+      "title": "7 Habits to Improve Your Liver Health Naturally",
+      "html": "<a href=\"/blog/health-check/7-habits-to-improve-your-liver-health\">7 Habits to Improve Your Liver Health Naturally</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/understanding-brca-testing",
+      "title": "BRCA Testing: Spotting Cancer Risk Before It Strikes",
+      "html": "<a href=\"/blog/health-check/understanding-brca-testing\">BRCA Testing: Spotting Cancer Risk Before It Strikes</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/hepatitis-b-symptoms",
+      "title": "Understanding Hepatitis B Symptoms: What to Watch Out For",
+      "html": "<a href=\"/blog/health-check/hepatitis-b-symptoms\">Understanding Hepatitis B Symptoms: What to Watch Out For</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/diabetes-during-pregnancy",
+      "title": "Diabetes During Pregnancy: How To Keep You & Your Baby Safe",
+      "html": "<a href=\"/blog/health-check/diabetes-during-pregnancy\">Diabetes During Pregnancy: How To Keep You &amp; Your Baby Safe</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/interpreting-your-blood-sugar-test",
+      "title": "Interpreting Your Blood Sugar Test: A Beginner’s Guide",
+      "html": "<a href=\"/blog/health-check/interpreting-your-blood-sugar-test\">Interpreting Your Blood Sugar Test: A Beginner’s Guide</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/food-allergy-guide",
+      "title": "Food Allergy: Symptoms, Triggers & How to Get Tested",
+      "html": "<a href=\"/blog/health-check/food-allergy-guide\">Food Allergy: Symptoms, Triggers &amp; How to Get Tested</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/what-is-ovulation",
+      "title": "What Is Ovulation: Understanding Your Monthly Fertility Clock",
+      "html": "<a href=\"/blog/health-check/what-is-ovulation\">What Is Ovulation: Understanding Your Monthly Fertility Clock</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/painless-delivery",
+      "title": "Top 5 Things You Should Know About Painless Delivery",
+      "html": "<a href=\"/blog/general/painless-delivery\">Top 5 Things You Should Know About Painless Delivery</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/manage-heartburn-during-pregnancy",
+      "title": "5 Quick Tips To Help You Manage Heartburn During Pregnancy",
+      "html": "<a href=\"/blog/general/manage-heartburn-during-pregnancy\">5 Quick Tips To Help You Manage Heartburn During Pregnancy </a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/seasonal-allergies",
+      "title": "Seasonal Allergies: Symptoms, Causes, Diagnosis, and Treatment",
+      "html": "<a href=\"/blog/health-check/seasonal-allergies\">Seasonal Allergies: Symptoms, Causes, Diagnosis, and Treatment</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/hypertension-in-india",
+      "title": "How Stress and Lifestyle Habits are Causing a Rise in Hypertension in India",
+      "html": "<a href=\"/blog/health-check/hypertension-in-india\">How Stress and Lifestyle Habits are Causing a Rise in Hypertension in India</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/causes-of-fatigue",
+      "title": "From Stress to Sleep: Top Causes of Fatigue Explained",
+      "html": "<a href=\"/blog/health-check/causes-of-fatigue\">From Stress to Sleep: Top Causes of Fatigue Explained</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/chronic-fatigue-syndrome",
+      "title": "Chronic Fatigue Syndrome (CFS): Symptoms, Causes, Diagnosis & Treatment",
+      "html": "<a href=\"/blog/health-check/chronic-fatigue-syndrome\">Chronic Fatigue Syndrome (CFS): Symptoms, Causes, Diagnosis &amp; Treatment</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/stem-cells/developmental-disorders-in-children-causes-types-diagnosis-treatment-options",
+      "title": "Developmental Disorders In Children",
+      "html": "<a href=\"/blog/stem-cells/developmental-disorders-in-children-causes-types-diagnosis-treatment-options\">Developmental Disorders In Children</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/stem-cells/pentastarch-cord-blood-processing-system",
+      "title": "Pentastarch Cord Blood Processing - How It Is Done",
+      "html": "<a href=\"/blog/stem-cells/pentastarch-cord-blood-processing-system\">Pentastarch Cord Blood Processing - How It Is Done</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/stem-cells/private-stem-cell-banking-vs-community-stem-cell-banking",
+      "title": "Why Choose Community Stem Cell Banking Over Others!",
+      "html": "<a href=\"/blog/stem-cells/private-stem-cell-banking-vs-community-stem-cell-banking\">Why Choose Community Stem Cell Banking Over Others!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/stem-cells/things-you-need-to-know-while-choosing-a-cord-blood-bank",
+      "title": "Top 5 Things To Know While Choosing A Cord Blood Bank",
+      "html": "<a href=\"/blog/stem-cells/things-you-need-to-know-while-choosing-a-cord-blood-bank\">Top 5 Things To Know While Choosing A Cord Blood Bank</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/cord-blood-transplants-now-get-even-better-with-the-recent-fda-nod-to-gamida-expanded-cord-blood-ste",
+      "title": "Cord Blood Transplants Now Get Even Better With The Recent FDA Nod To Gamida’s Expanded Cord Blood Stem Cells: Omisirge®",
+      "html": "<a href=\"/blog/health-bank/cord-blood-transplants-now-get-even-better-with-the-recent-fda-nod-to-gamida-expanded-cord-blood-ste\">Cord Blood Transplants Now Get Even Better With The Recent FDA Nod To Gamida’s Expanded Cord Blood Stem Cells: Omisirge®</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/stem-cells/why-is-hla-matching-important",
+      "title": "Finding A Stem Cell Match With LifeCell",
+      "html": "<a href=\"/blog/stem-cells/why-is-hla-matching-important\">Finding A Stem Cell Match With LifeCell</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/stem-cells/umbilical-cord-blood-stem-cell-transplant",
+      "title": "Umbilical Cord Blood Stem Cell Transplant: Benefits, Cost, Success Rate",
+      "html": "<a href=\"/blog/stem-cells/umbilical-cord-blood-stem-cell-transplant\">Umbilical Cord Blood Stem Cell Transplant: Benefits, Cost, Success Rate</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/guidelines-for-umbilical-cord-blood-banking-collection-processing-testing-storage-and-release",
+      "title": "Guidelines for Umbilical Cord Blood Banking: Collection, Processing, Testing, Storage, and Release",
+      "html": "<a href=\"/blog/health-bank/guidelines-for-umbilical-cord-blood-banking-collection-processing-testing-storage-and-release\">Guidelines for Umbilical Cord Blood Banking: Collection, Processing, Testing, Storage, and Release</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/are-stem-cells-good-or-bad-myths-about-stem-cells-debunked",
+      "title": "Are Stem Cells Good Or Bad? Myths About Stem Cells, Debunked",
+      "html": "<a href=\"/blog/health-bank/are-stem-cells-good-or-bad-myths-about-stem-cells-debunked\">Are Stem Cells Good Or Bad? Myths About Stem Cells, Debunked</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/stem-cells/delayed-cord-clamping",
+      "title": "Delayed Cord Clamping: Benefits, Risks And Guidelines",
+      "html": "<a href=\"/blog/stem-cells/delayed-cord-clamping\">Delayed Cord Clamping: Benefits, Risks And Guidelines</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/stem-cells/ten-reasons-to-bank-with-lifecell",
+      "title": "10 Reasons To Bank Your Baby’s Stem Cells With LifeCell",
+      "html": "<a href=\"/blog/stem-cells/ten-reasons-to-bank-with-lifecell\">10 Reasons To Bank Your Baby’s Stem Cells With LifeCell</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/stem-cells/need-for-cord-blood-stem-cell-banking-at-birth",
+      "title": "Why Consider Cord Blood Banking At The Time Of Birth?",
+      "html": "<a href=\"/blog/stem-cells/need-for-cord-blood-stem-cell-banking-at-birth\">Why Consider Cord Blood Banking At The Time Of Birth?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/stem-cells/list-of-diseases-treated-by-stem-cells",
+      "title": "List Of Diseases Treated By Stem Cells",
+      "html": "<a href=\"/blog/stem-cells/list-of-diseases-treated-by-stem-cells\">List Of Diseases Treated By Stem Cells</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/stem-cells/top-stem-cell-banks-in-india",
+      "title": "Top Stem Cell Banks In India",
+      "html": "<a href=\"/blog/stem-cells/top-stem-cell-banks-in-india\">Top Stem Cell Banks In India</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/stem-cells/why-choose-lifecell-stem-cell-banking",
+      "title": "Why Choose LifeCell Stem Cell Banking In India Over Other Stem Cell Banks?",
+      "html": "<a href=\"/blog/stem-cells/why-choose-lifecell-stem-cell-banking\">Why Choose LifeCell Stem Cell Banking In India Over Other Stem Cell Banks?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/what-makes-cord-blood-transplants-ideal-for-pediatric-non-malignant-disorders",
+      "title": "What Makes Cord Blood Transplants Ideal For Pediatric Non-Malignant Disorders!",
+      "html": "<a href=\"/blog/health-bank/what-makes-cord-blood-transplants-ideal-for-pediatric-non-malignant-disorders\">What Makes Cord Blood Transplants Ideal For Pediatric Non-Malignant Disorders!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/stem-cells/community-stem-cell-banking-helps-save-life-child-with-aplastic-anemia",
+      "title": "Community Cord Blood Banking Emerges As A Life Saver",
+      "html": "<a href=\"/blog/stem-cells/community-stem-cell-banking-helps-save-life-child-with-aplastic-anemia\">Community Cord Blood Banking Emerges As A Life Saver</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/stem-cells/community-banking-overview",
+      "title": "Community Banking Overview",
+      "html": "<a href=\"/blog/stem-cells/community-banking-overview\">Community Banking Overview</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/stem-cells/bone-marrow-transplant-vs-cord-blood-transplant",
+      "title": "Bone Marrow Transplant vs Cord Blood Transplant - Which is Better?",
+      "html": "<a href=\"/blog/stem-cells/bone-marrow-transplant-vs-cord-blood-transplant\">Bone Marrow Transplant vs Cord Blood Transplant - Which is Better?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/why-choose-community-stem-cell-banking-over-others",
+      "title": "Why Choose Community Stem Cell Banking Over Others!",
+      "html": "<a href=\"/blog/health-bank/why-choose-community-stem-cell-banking-over-others\">Why Choose Community Stem Cell Banking Over Others!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/stem-cells/benefits-of-early-hla-typing-stemmatch-clinical-relevance",
+      "title": "Benefits Of Early HLA Typing (Stemmatch): Clinical Relevance",
+      "html": "<a href=\"/blog/stem-cells/benefits-of-early-hla-typing-stemmatch-clinical-relevance\">Benefits Of Early HLA Typing (Stemmatch): Clinical Relevance</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/stem-cells/aml-cancer-treatments-using-cord-blood-conjunction-haploidentical-stem-cells-study",
+      "title": "Cord Blood & Haploidentical Grafts Coinfusion Improves AML Treatment Outcome: Study",
+      "html": "<a href=\"/blog/stem-cells/aml-cancer-treatments-using-cord-blood-conjunction-haploidentical-stem-cells-study\">Cord Blood &amp; Haploidentical Grafts Coinfusion Improves AML Treatment Outcome: Study</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/national-doctors-day-wishes-quotes-whatsapp-status-messages-images",
+      "title": "National Doctors Day 2025: Wishes, Quotes, Images, & WhatsApp Messages",
+      "html": "<a href=\"/blog/general/national-doctors-day-wishes-quotes-whatsapp-status-messages-images\">National Doctors Day 2025: Wishes, Quotes, Images, &amp; WhatsApp Messages</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/mothers-day-2023-date-history-significance-importance",
+      "title": "All About Mother’s Day 2025: Date, History & Significance!",
+      "html": "<a href=\"/blog/general/mothers-day-2023-date-history-significance-importance\">All About Mother’s Day 2025: Date, History &amp; Significance!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/fathers-day-date-history-and-significance",
+      "title": "All About Father’s Day 2025: Date, History & Significance!",
+      "html": "<a href=\"/blog/general/fathers-day-date-history-and-significance\">All About Father’s Day 2025: Date, History &amp; Significance!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/dha-for-pregnancy-role-of-dha-in-pregnancy",
+      "title": "DHA Supplement During Pregnancy: What Every Mom-to-Be Should Know",
+      "html": "<a href=\"/blog/health-check/dha-for-pregnancy-role-of-dha-in-pregnancy\">DHA Supplement During Pregnancy: What Every Mom-to-Be Should Know</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/stem-cells/umbilical-cord-vs-placenta-differences-between-umbilical-cord-and-placenta",
+      "title": "Umbilical Cord vs Placenta: Difference between Placenta and Umbilical Cord",
+      "html": "<a href=\"/blog/stem-cells/umbilical-cord-vs-placenta-differences-between-umbilical-cord-and-placenta\">Umbilical Cord vs Placenta: Difference between Placenta and Umbilical Cord</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/stem-cells/lifecell-community-banking-aligns-with-the-recommendations-of-medical-bodies-and-physicians",
+      "title": "LifeCell’s Community Cord Blood Banking Program: How It Aligns With The Leading Medical Bodies’ Recommendations",
+      "html": "<a href=\"/blog/stem-cells/lifecell-community-banking-aligns-with-the-recommendations-of-medical-bodies-and-physicians\">LifeCell’s Community Cord Blood Banking Program: How It Aligns With The Leading Medical Bodies’ Recommendations</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/stem-cells/how-is-your-babys-cord-blood-processed-and-stored",
+      "title": "How Is Your Baby’s Cord Blood Collected, Processed & Preserved",
+      "html": "<a href=\"/blog/stem-cells/how-is-your-babys-cord-blood-processed-and-stored\">How Is Your Baby’s Cord Blood Collected, Processed &amp; Preserved</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/stem-cells/hla-typing-donors-and-patients-hla-matching-for-stem-cell-transplantation",
+      "title": "Significance Of HLA Typing In Stem Cell Transplantation",
+      "html": "<a href=\"/blog/stem-cells/hla-typing-donors-and-patients-hla-matching-for-stem-cell-transplantation\">Significance Of HLA Typing In Stem Cell Transplantation</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/umbilical-cord-blood-collection-kit-features",
+      "title": "Umbilical Cord Blood Collection Kit - 5 Features You Should Know",
+      "html": "<a href=\"/blog/health-bank/umbilical-cord-blood-collection-kit-features\">Umbilical Cord Blood Collection Kit - 5 Features You Should Know</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/lifecell-makes-stem-cell-banking-affordable-for-all-with-zero-interest-emi-plans",
+      "title": "Zero-Interest EMIs, 1 Rupee Down Payment: LifeCell Makes Stem Cell Banking Affordable For All",
+      "html": "<a href=\"/blog/health-bank/lifecell-makes-stem-cell-banking-affordable-for-all-with-zero-interest-emi-plans\">Zero-Interest EMIs, 1 Rupee Down Payment: LifeCell Makes Stem Cell Banking Affordable For All</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/stem-cells/what-is-stem-cell-banking",
+      "title": "The Significance Of Stem Cell Banking: Explained",
+      "html": "<a href=\"/blog/stem-cells/what-is-stem-cell-banking\">The Significance Of Stem Cell Banking: Explained</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/stem-cells/benefits-of-stem-cell-banking",
+      "title": "Benefits Of Preserving Umbilical Cord Stem Cells In a Community Bank!",
+      "html": "<a href=\"/blog/stem-cells/benefits-of-stem-cell-banking\">Benefits Of Preserving Umbilical Cord Stem Cells In a Community Bank!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/dehydration-symptoms",
+      "title": "Dehydration Symptoms: Causes & Prevention Tips",
+      "html": "<a href=\"/blog/health-check/dehydration-symptoms\">Dehydration Symptoms: Causes &amp; Prevention Tips</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/birth-defects-in-babies",
+      "title": "Birth Defects In Babies: Can They Be Prevented?",
+      "html": "<a href=\"/blog/general/birth-defects-in-babies\">Birth Defects In Babies: Can They Be Prevented?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/allergy-testing-guide",
+      "title": "The Ultimate Guide to Allergy Testing: Types, Procedures, and Results Explained",
+      "html": "<a href=\"/blog/health-check/allergy-testing-guide\">The Ultimate Guide to Allergy Testing: Types, Procedures, and Results Explained</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/vitamin-deficiency-vs-depression",
+      "title": "Vitamin Deficiency Vs. Depression: Key Differences You Should Know",
+      "html": "<a href=\"/blog/health-check/vitamin-deficiency-vs-depression\">Vitamin Deficiency Vs. Depression: Key Differences You Should Know</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/thyroid-disorders-signs-and-symptoms",
+      "title": "Thyroid Disorders Affect 42 Million Indians – Know Its Signs & Symptoms",
+      "html": "<a href=\"/blog/health-check/thyroid-disorders-signs-and-symptoms\">Thyroid Disorders Affect 42 Million Indians – Know Its Signs &amp; Symptoms</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/liver-disease-symptoms-causes-and-treatment",
+      "title": "Liver Disease: Symptoms, Causes & Treatment",
+      "html": "<a href=\"/blog/health-check/liver-disease-symptoms-causes-and-treatment\">Liver Disease: Symptoms, Causes &amp; Treatment</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/everything-you-need-to-know-about-cord-blood-awareness-month-2024",
+      "title": "Everything You Need To Know About Cord Blood Awareness Month 2025",
+      "html": "<a href=\"/blog/general/everything-you-need-to-know-about-cord-blood-awareness-month-2024\">Everything You Need To Know About Cord Blood Awareness Month 2025</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/raksha-bandhan-gift-ideas-for-brothers-and-sisters",
+      "title": "Raksha Bandhan Gift Ideas For Brothers & Sisters In 2025!",
+      "html": "<a href=\"/blog/general/raksha-bandhan-gift-ideas-for-brothers-and-sisters\">Raksha Bandhan Gift Ideas For Brothers &amp; Sisters In 2025!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/cord-blood-awareness-month-history-timeline-and-importance",
+      "title": "Cord Blood Awareness Month 2025: History, Timeline & Importance!",
+      "html": "<a href=\"/blog/general/cord-blood-awareness-month-history-timeline-and-importance\">Cord Blood Awareness Month 2025: History, Timeline &amp; Importance!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/world-breastfeeding-week-dates-theme-slogans-and-significance",
+      "title": "World Breastfeeding Week 2025 Dates, Theme, Slogans, And Significance",
+      "html": "<a href=\"/blog/general/world-breastfeeding-week-dates-theme-slogans-and-significance\">World Breastfeeding Week 2025 Dates, Theme, Slogans, And Significance</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/liquid-biopsy-for-cancer-diagnosis",
+      "title": "Liquid Biopsy For Cancer Diagnosis: Everything You Need To Know",
+      "html": "<a href=\"/blog/health-check/liquid-biopsy-for-cancer-diagnosis\">Liquid Biopsy For Cancer Diagnosis: Everything You Need To Know</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/ivf-treatment-guide",
+      "title": "What To Expect During IVF Treatment: A Step-by-Step Guide",
+      "html": "<a href=\"/blog/health-check/ivf-treatment-guide\">What To Expect During IVF Treatment: A Step-by-Step Guide</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/heart-healthy-foods",
+      "title": "From Berries to Nuts: 14 Heart-Healthy Foods You Should Eat Daily",
+      "html": "<a href=\"/blog/health-check/heart-healthy-foods\">From Berries to Nuts: 14 Heart-Healthy Foods You Should Eat Daily</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/side-effects-of-alcohol-on-mens-health",
+      "title": "5 Serious Side Effects Of Alcohol On Men’s Health",
+      "html": "<a href=\"/blog/general/side-effects-of-alcohol-on-mens-health\">5 Serious Side Effects Of Alcohol On Men’s Health</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/iron-supplements-for-women",
+      "title": "Iron Supplements For Women: Separating Fact From Fiction",
+      "html": "<a href=\"/blog/health-check/iron-supplements-for-women\">Iron Supplements For Women: Separating Fact From Fiction</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/why-is-a-molar-pregnancy-not-common",
+      "title": "Why Is a Molar Pregnancy Not Common?",
+      "html": "<a href=\"/blog/general/why-is-a-molar-pregnancy-not-common\">Why Is a Molar Pregnancy Not Common?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/best-advice-for-couples-turning-soon-to-be-parents",
+      "title": "Best Advice For Couples Turning Soon-To-Be-Parents!",
+      "html": "<a href=\"/blog/health-check/best-advice-for-couples-turning-soon-to-be-parents\">Best Advice For Couples Turning Soon-To-Be-Parents!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/what-are-the-symptoms-of-pregnancy",
+      "title": "What Are The Symptoms Of Pregnancy?",
+      "html": "<a href=\"/blog/health-bank/what-are-the-symptoms-of-pregnancy\">What Are The Symptoms Of Pregnancy?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/types-of-baby-delivery",
+      "title": "Types Of Delivery: What To Expect From Different Childbirth Options",
+      "html": "<a href=\"/blog/general/types-of-baby-delivery\">Types Of Delivery: What To Expect From Different Childbirth Options</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/postpartum-depression",
+      "title": "Postpartum Depression - Symptoms and causes",
+      "html": "<a href=\"/blog/general/postpartum-depression\">Postpartum Depression - Symptoms and causes</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/top-5-unique-baby-shower-gifts-for-your-wife",
+      "title": "Top 5 Unique Baby Shower Gifts For Your Wife",
+      "html": "<a href=\"/blog/general/top-5-unique-baby-shower-gifts-for-your-wife\">Top 5 Unique Baby Shower Gifts For Your Wife</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-clinic/the-wound-healing-process-know-it-all",
+      "title": "The Wound Healing Process: Know It All",
+      "html": "<a href=\"/blog/health-clinic/the-wound-healing-process-know-it-all\">The Wound Healing Process: Know It All</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/genetic-causes-of-female-infertility",
+      "title": "What Are The Genetic Causes Of Female Infertility?",
+      "html": "<a href=\"/blog/general/genetic-causes-of-female-infertility\">What Are The Genetic Causes Of Female Infertility?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/the-truth-behind-male-infertility",
+      "title": "The Truth Behind Male Infertility",
+      "html": "<a href=\"/blog/health-check/the-truth-behind-male-infertility\">The Truth Behind Male Infertility</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/rh-factor",
+      "title": "Rh Factor Test Before Pregnancy: A Key Step for a Healthy Pregnancy",
+      "html": "<a href=\"/blog/general/rh-factor\">Rh Factor Test Before Pregnancy: A Key Step for a Healthy Pregnancy</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/harmful-effects-of-laptop-radiation-in-men",
+      "title": "5 Harmful Effects Of Laptop Radiation In Men",
+      "html": "<a href=\"/blog/general/harmful-effects-of-laptop-radiation-in-men\"> 5 Harmful Effects Of Laptop Radiation In Men</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/side-effects-of-smoking-in-men",
+      "title": "Side Effects Of Smoking On Male Health And Fertility: Here’s Why You Should Quit!",
+      "html": "<a href=\"/blog/general/side-effects-of-smoking-in-men\">Side Effects Of Smoking On Male Health And Fertility: Here’s Why You Should Quit!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/understanding-how-hypertension-affects-male-fertility",
+      "title": "Understanding How Hypertension Affects Male Fertility",
+      "html": "<a href=\"/blog/general/understanding-how-hypertension-affects-male-fertility\">Understanding How Hypertension Affects Male Fertility</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/10-key-causes-of-male-infertility",
+      "title": "10 Key Causes Of Male Infertility!",
+      "html": "<a href=\"/blog/health-bank/10-key-causes-of-male-infertility\">10 Key Causes Of Male Infertility!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/abnormal-semen-analysis-whats-the-next-step",
+      "title": "Abnormal Semen Analysis: What’s The Next Step?",
+      "html": "<a href=\"/blog/health-bank/abnormal-semen-analysis-whats-the-next-step\">Abnormal Semen Analysis: What’s The Next Step?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/an-overview-of-sperm-dna-fragmentation-index-dfi",
+      "title": "An Overview Of Sperm DNA Fragmentation Index (DFI)",
+      "html": "<a href=\"/blog/health-bank/an-overview-of-sperm-dna-fragmentation-index-dfi\">An Overview Of Sperm DNA Fragmentation Index (DFI)</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/double-density-gradient-centrifugation-how-it-impacts-sperm-quality",
+      "title": "Double Density Gradient Centrifugation - How It Impacts Sperm Quality",
+      "html": "<a href=\"/blog/health-bank/double-density-gradient-centrifugation-how-it-impacts-sperm-quality\">Double Density Gradient Centrifugation - How It Impacts Sperm Quality</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/effect-of-cancer-on-sperm-dna-fragmentation",
+      "title": "Unravelling The Effect Of Cancer On Sperm DNA Fragmentation",
+      "html": "<a href=\"/blog/health-bank/effect-of-cancer-on-sperm-dna-fragmentation\">Unravelling The Effect Of Cancer On Sperm DNA Fragmentation</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/effects-of-advanced-paternal-age-on-sperm-dna",
+      "title": "What Are The Effects Of Advanced Paternal Age On Sperm DNA?",
+      "html": "<a href=\"/blog/health-bank/effects-of-advanced-paternal-age-on-sperm-dna\">What Are The Effects Of Advanced Paternal Age On Sperm DNA?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/effects-of-cancer-treatment-on-female-fertility",
+      "title": "The Effects Of Cancer Treatment On Female Fertility: An Overview",
+      "html": "<a href=\"/blog/health-bank/effects-of-cancer-treatment-on-female-fertility\">The Effects Of Cancer Treatment On Female Fertility: An Overview</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/egg-freezing-key-to-delayed-parenthood",
+      "title": "Egg Freezing: Key To Delayed Parenthood!",
+      "html": "<a href=\"/blog/health-bank/egg-freezing-key-to-delayed-parenthood\">Egg Freezing: Key To Delayed Parenthood!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/egg-retrieval-procedure-and-storage-process-an-overview",
+      "title": "Egg Retrieval Procedure & Storage: An Overview",
+      "html": "<a href=\"/blog/health-bank/egg-retrieval-procedure-and-storage-process-an-overview\">Egg Retrieval Procedure &amp; Storage: An Overview</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/fertility-treatment-for-women-types-who-should-consider-and-success-rate",
+      "title": "Understanding Fertility Treatments And Who Should Consider Them",
+      "html": "<a href=\"/blog/health-bank/fertility-treatment-for-women-types-who-should-consider-and-success-rate\">Understanding Fertility Treatments And Who Should Consider Them</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/how-to-take-a-sperm-test-at-home",
+      "title": "How to Take a Sperm Test & Check the Sperm Count at Home",
+      "html": "<a href=\"/blog/health-bank/how-to-take-a-sperm-test-at-home\">How to Take a Sperm Test &amp; Check the Sperm Count at Home</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/is-sperm-banking-helpful-for-assisted-reproductive-technology",
+      "title": "Is Sperm Banking Helpful For Assisted Reproductive Technology?",
+      "html": "<a href=\"/blog/health-bank/is-sperm-banking-helpful-for-assisted-reproductive-technology\">Is Sperm Banking Helpful For Assisted Reproductive Technology?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/male-masturbation-does-frequency-affect-male-fertility",
+      "title": "Does Masturbation Affect Male Fertility?",
+      "html": "<a href=\"/blog/health-bank/male-masturbation-does-frequency-affect-male-fertility\">Does Masturbation Affect Male Fertility?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/male-reproductive-health-whats-your-fertility-status",
+      "title": "Male Reproductive Health: What’s Your Fertility Status?",
+      "html": "<a href=\"/blog/health-bank/male-reproductive-health-whats-your-fertility-status\">Male Reproductive Health: What’s Your Fertility Status?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/preserving-fertility-sperm-banking-for-cancer-patients",
+      "title": "Preserving Fertility: Sperm Banking For Cancer Patients",
+      "html": "<a href=\"/blog/health-bank/preserving-fertility-sperm-banking-for-cancer-patients\">Preserving Fertility: Sperm Banking For Cancer Patients</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/role-of-sperm-dna-damage-in-recurrent-pregnancy-loss",
+      "title": "The Role Of Sperm DNA Damage In Recurrent Pregnancy Loss",
+      "html": "<a href=\"/blog/health-bank/role-of-sperm-dna-damage-in-recurrent-pregnancy-loss\">The Role Of Sperm DNA Damage In Recurrent Pregnancy Loss</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/role-of-sperm-dna-in-male-infertility",
+      "title": "Role Of Sperm DNA: An Ultimate Guide To Male Infertility",
+      "html": "<a href=\"/blog/health-bank/role-of-sperm-dna-in-male-infertility\">Role Of Sperm DNA: An Ultimate Guide To Male Infertility </a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/sperm-banking-in-high-risk-occupations",
+      "title": "Sperm Banking In High-Risk Occupations",
+      "html": "<a href=\"/blog/health-bank/sperm-banking-in-high-risk-occupations\">Sperm Banking In High-Risk Occupations</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/sperm-freezing",
+      "title": "Sperm Freezing: Everything You Need To Know",
+      "html": "<a href=\"/blog/health-bank/sperm-freezing\">Sperm Freezing: Everything You Need To Know </a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/sperm-preservation-can-it-help-solve-male-infertility-problems",
+      "title": "Sperm Preservation: Can It Help Solve Male Infertility Problems?",
+      "html": "<a href=\"/blog/health-bank/sperm-preservation-can-it-help-solve-male-infertility-problems\">Sperm Preservation: Can It Help Solve Male Infertility Problems?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/testicular-cancer-fertility-preservation",
+      "title": "Testicular Cancer & Fertility Preservation: All You Need To Know!",
+      "html": "<a href=\"/blog/health-bank/testicular-cancer-fertility-preservation\">Testicular Cancer &amp; Fertility Preservation: All You Need To Know!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/the-collection-and-shipment-process-for-sperm-testing-and-preservation",
+      "title": "The Collection And Shipment Process For Sperm Testing And Preservation",
+      "html": "<a href=\"/blog/health-bank/the-collection-and-shipment-process-for-sperm-testing-and-preservation\">The Collection And Shipment Process For Sperm Testing And Preservation</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/understanding-the-effects-of-sperm-dna-fragmentation",
+      "title": "Understanding The Effects Of Sperm DNA Fragmentation!",
+      "html": "<a href=\"/blog/health-bank/understanding-the-effects-of-sperm-dna-fragmentation\">Understanding The Effects Of Sperm DNA Fragmentation!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/understanding-the-quality-and-quantity-of-frozen-eggs",
+      "title": "Preserving Fertility: Understanding The Quality And Quantity Of Frozen Eggs",
+      "html": "<a href=\"/blog/health-bank/understanding-the-quality-and-quantity-of-frozen-eggs\">Preserving Fertility: Understanding The Quality And Quantity Of Frozen Eggs</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/what-is-egg-vitrification-and-how-is-it-done",
+      "title": "What is Vitrification: An Overview",
+      "html": "<a href=\"/blog/health-bank/what-is-egg-vitrification-and-how-is-it-done\">What is Vitrification: An Overview</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-clinic/does-female-masturbation-cause-infertility",
+      "title": "Does Female Masturbation Cause Infertility? Debunking The Myth",
+      "html": "<a href=\"/blog/health-clinic/does-female-masturbation-cause-infertility\">Does Female Masturbation Cause Infertility? Debunking The Myth</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-clinic/placenta-donation-everything-you-need-to-know",
+      "title": "Placenta Donation: Everything You Need To Know",
+      "html": "<a href=\"/blog/health-clinic/placenta-donation-everything-you-need-to-know\">Placenta Donation: Everything You Need To Know</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/how-to-read-a-genetic-test-report",
+      "title": "How To Read A Genetic Test Report?",
+      "html": "<a href=\"/blog/health-check/how-to-read-a-genetic-test-report\">How To Read A Genetic Test Report?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/how-to-prevent-the-spread-of-genital-warts",
+      "title": "How To Prevent The Spread Of Genital Warts?",
+      "html": "<a href=\"/blog/health-check/how-to-prevent-the-spread-of-genital-warts\">How To Prevent The Spread Of Genital Warts? </a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/how-to-prevent-chlamydia-and-gonorrhoea",
+      "title": "How To Prevent Chlamydia And Gonorrhoea?",
+      "html": "<a href=\"/blog/health-check/how-to-prevent-chlamydia-and-gonorrhoea\">How To Prevent Chlamydia And Gonorrhoea?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/how-to-interpret-your-dha-test-results-during-pregnancy",
+      "title": "How To Interpret Your DHA Test Results During Pregnancy?",
+      "html": "<a href=\"/blog/health-check/how-to-interpret-your-dha-test-results-during-pregnancy\">How To Interpret Your DHA Test Results During Pregnancy?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/how-to-interpret-a-semen-analysis-report",
+      "title": "How To Interpret A Semen Analysis Report",
+      "html": "<a href=\"/blog/health-check/how-to-interpret-a-semen-analysis-report\">How To Interpret A Semen Analysis Report</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/how-to-increase-fertility-in-women",
+      "title": "How To Improve Fertility In Women? Here’s What You Should Know!",
+      "html": "<a href=\"/blog/health-check/how-to-increase-fertility-in-women\">How To Improve Fertility In Women? Here’s What You Should Know!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/how-to-get-pregnant-fast",
+      "title": "12 Tips on How to get Pregnant Fast",
+      "html": "<a href=\"/blog/health-check/how-to-get-pregnant-fast\">12 Tips on How to get Pregnant Fast</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/how-risky-are-utis-during-pregnancy",
+      "title": "How Risky Are UTIs During Pregnancy?",
+      "html": "<a href=\"/blog/health-check/how-risky-are-utis-during-pregnancy\">How Risky Are UTIs During Pregnancy?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/how-pcr-technology-can-help-detect-hpv-in-patients",
+      "title": "How PCR Technology Can Help Detect HPV In Patients?",
+      "html": "<a href=\"/blog/health-check/how-pcr-technology-can-help-detect-hpv-in-patients\">How PCR Technology Can Help Detect HPV In Patients?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/how-long-should-you-breastfeed-your-baby",
+      "title": "How Long Should You Breastfeed Your Baby?",
+      "html": "<a href=\"/blog/health-check/how-long-should-you-breastfeed-your-baby\">How Long Should You Breastfeed Your Baby?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/how-long-does-perimenopausal-symptoms-last",
+      "title": "How Long Does Perimenopausal Symptoms Last?",
+      "html": "<a href=\"/blog/health-check/how-long-does-perimenopausal-symptoms-last\">How Long Does Perimenopausal Symptoms Last?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/how-is-fha-a-reason-for-irregular-periods-in-women",
+      "title": "How Is FHA A Reason For Irregular Periods In Women?",
+      "html": "<a href=\"/blog/health-check/how-is-fha-a-reason-for-irregular-periods-in-women\">How Is FHA A Reason For Irregular Periods In Women?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/how-to-relieve-sore-nipples",
+      "title": "How To Relieve Sore Nipples?",
+      "html": "<a href=\"/blog/health-check/how-to-relieve-sore-nipples\">How To Relieve Sore Nipples?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/how-does-sperm-morphology-affect-male-fertility",
+      "title": "How Does Sperm Morphology Affect Male Fertility?",
+      "html": "<a href=\"/blog/health-check/how-does-sperm-morphology-affect-male-fertility\">How Does Sperm Morphology Affect Male Fertility?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/how-does-smoking-cause-cervical-cancer",
+      "title": "How Does ‘Smoking Cause Cervical Cancer’?",
+      "html": "<a href=\"/blog/health-check/how-does-smoking-cause-cervical-cancer\">How Does ‘Smoking Cause Cervical Cancer’?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/how-can-you-get-rid-of-hpv-infection",
+      "title": "How Can You Get Rid Of HPV Infection?",
+      "html": "<a href=\"/blog/health-check/how-can-you-get-rid-of-hpv-infection\">How Can You Get Rid Of HPV Infection?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/how-are-genital-warts-different-from-skin-tags",
+      "title": "Difference Between Skin Tag And Genital Warts",
+      "html": "<a href=\"/blog/health-check/how-are-genital-warts-different-from-skin-tags\">Difference Between Skin Tag And Genital Warts</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/hormonal-imbalance-during-perimenopause-symptoms-diagnosis-and-treatment",
+      "title": "Hormonal Imbalance During Perimenopause: Symptoms, Diagnosis & Treatment Options",
+      "html": "<a href=\"/blog/health-check/hormonal-imbalance-during-perimenopause-symptoms-diagnosis-and-treatment\">Hormonal Imbalance During Perimenopause: Symptoms, Diagnosis  &amp; Treatment Options</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/health-screening-tests-for-men",
+      "title": "Prioritise Your Well-being: Essential Health Tests for Men",
+      "html": "<a href=\"/blog/health-check/health-screening-tests-for-men\">Prioritise Your Well-being: Essential Health Tests for Men</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/gonorrhea-and-chlamydia-in-women-know-symptoms-and-treatment",
+      "title": "Symptoms Of Chlamydia And Gonorrhea In Women - Explained",
+      "html": "<a href=\"/blog/health-check/gonorrhea-and-chlamydia-in-women-know-symptoms-and-treatment\">Symptoms Of Chlamydia And Gonorrhea In Women - Explained</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/genomescope-and-relevance-of-newborn-genetic-screening-in-india",
+      "title": "Genomescope & Relevance of Newborn Genetic Screening in India",
+      "html": "<a href=\"/blog/health-check/genomescope-and-relevance-of-newborn-genetic-screening-in-india\">Genomescope &amp; Relevance of Newborn Genetic Screening in India</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/genital-warts-treatment-a-complete-guide",
+      "title": "Genital Warts Treatment: A Complete Guide",
+      "html": "<a href=\"/blog/health-check/genital-warts-treatment-a-complete-guide\">Genital Warts Treatment: A Complete Guide</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/hpv-test",
+      "title": "HPV Test For Women: Why You Need One",
+      "html": "<a href=\"/blog/health-check/hpv-test\">HPV Test For Women: Why You Need One</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/free-thyroxine-all-you-need-to-know-about-ft4",
+      "title": "Free Thyroxine - All You Need To Know About fT4",
+      "html": "<a href=\"/blog/health-check/free-thyroxine-all-you-need-to-know-about-ft4\">Free Thyroxine - All You Need To Know About fT4</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/follicle-stimulating-hormone-all-you-need-to-know-about-fsh",
+      "title": "Follicle Stimulating Hormone - All You Need To Know About FSH",
+      "html": "<a href=\"/blog/health-check/follicle-stimulating-hormone-all-you-need-to-know-about-fsh\">Follicle Stimulating Hormone - All You Need To Know About FSH</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/fertility-tests-for-women",
+      "title": "Guide To Fertility Tests For Women: Understanding Its Purpose",
+      "html": "<a href=\"/blog/health-check/fertility-tests-for-women\">Guide To Fertility Tests For Women: Understanding Its Purpose</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/hpv-vaccine-age-limit-schedule-benefits-side-effects",
+      "title": "Everything You Need To Know About HPV Vaccine",
+      "html": "<a href=\"/blog/health-check/hpv-vaccine-age-limit-schedule-benefits-side-effects\">Everything You Need To Know About HPV Vaccine</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/fertility-and-the-aging-man",
+      "title": "Fertility & The Aging Man",
+      "html": "<a href=\"/blog/health-check/fertility-and-the-aging-man\">Fertility &amp; The Aging Man</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/importance-of-omega-3-dha-in-fetal-growth-and-development",
+      "title": "Importance Of Omega-3 DHA In Fetal Growth & Development",
+      "html": "<a href=\"/blog/health-check/importance-of-omega-3-dha-in-fetal-growth-and-development\">Importance Of Omega-3 DHA In Fetal Growth &amp; Development</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/estradiol-all-you-need-to-know-about-e2",
+      "title": "Estradiol - All you need to know about E2",
+      "html": "<a href=\"/blog/health-check/estradiol-all-you-need-to-know-about-e2\">Estradiol - All you need to know about E2</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/electric-pump-or-manual-pump-a-guide-to-help-you-choose",
+      "title": "Electric Pump Or Manual Pump: A Guide To Help You Choose!",
+      "html": "<a href=\"/blog/health-check/electric-pump-or-manual-pump-a-guide-to-help-you-choose\">Electric Pump Or Manual Pump: A Guide To Help You Choose!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/inheritance-of-genetic-diseases-an-overview",
+      "title": "Inheritance Of Genetic Diseases: An Overview",
+      "html": "<a href=\"/blog/health-check/inheritance-of-genetic-diseases-an-overview\">Inheritance Of Genetic Diseases: An Overview </a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/is-dha-supplementation-while-breastfeeding-a-good-idea",
+      "title": "Is DHA Supplementation While Breastfeeding A Good Idea?",
+      "html": "<a href=\"/blog/health-check/is-dha-supplementation-while-breastfeeding-a-good-idea\">Is DHA Supplementation While Breastfeeding A Good Idea?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/effects-of-stress-and-infertility-in-women",
+      "title": "Effects Of Stress And Infertility In Women",
+      "html": "<a href=\"/blog/health-check/effects-of-stress-and-infertility-in-women\">Effects Of Stress And Infertility In Women</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/is-it-safe-to-be-sexually-active-with-hpv",
+      "title": "Is It Safe To Be Sexually Active With HPV?",
+      "html": "<a href=\"/blog/health-check/is-it-safe-to-be-sexually-active-with-hpv\">Is It Safe To Be Sexually Active With HPV?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/is-ovulation-during-perimenopause-possible",
+      "title": "Is Ovulation During Perimenopause Possible?",
+      "html": "<a href=\"/blog/health-check/is-ovulation-during-perimenopause-possible\">Is Ovulation During Perimenopause Possible? </a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/is-std-testing-possible-with-a-throat-swab",
+      "title": "Is STD Testing Possible With A Throat Swab?",
+      "html": "<a href=\"/blog/health-check/is-std-testing-possible-with-a-throat-swab\">Is STD Testing Possible With A Throat Swab?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/is-vaginal-douching-helpful-or-harmful",
+      "title": "Is Vaginal Douching A Helpful Or Harmful Practice?",
+      "html": "<a href=\"/blog/health-check/is-vaginal-douching-helpful-or-harmful\">Is Vaginal Douching A Helpful Or Harmful Practice? </a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/learn-the-impact-of-covid-19-on-family-planning",
+      "title": "Learn The Impact Of COVID-19 On Family Planning",
+      "html": "<a href=\"/blog/health-check/learn-the-impact-of-covid-19-on-family-planning\">Learn The Impact Of COVID-19 On Family Planning</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/long-term-complications-of-high-risk-hpv-infection-in-women",
+      "title": "Long-term Complications Of High-Risk HPV Infection In Women",
+      "html": "<a href=\"/blog/health-check/long-term-complications-of-high-risk-hpv-infection-in-women\">Long-term Complications Of High-Risk HPV Infection In Women</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/low-sperm-count-symptoms-causes-and-diagnosis",
+      "title": "Low Sperm Count: Symptoms, Causes & Diagnosis",
+      "html": "<a href=\"/blog/health-check/low-sperm-count-symptoms-causes-and-diagnosis\">Low Sperm Count: Symptoms, Causes &amp; Diagnosis</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/low-testosterone-causes-treatments",
+      "title": "Low Testosterone: Is It Time To Talk To Your Doctor?",
+      "html": "<a href=\"/blog/health-check/low-testosterone-causes-treatments\">Low Testosterone: Is It Time To Talk To Your Doctor?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/luteinizing-hormone-all-you-need-to-know-about-lh",
+      "title": "Luteinizing Hormone - All You Need To Know About LH",
+      "html": "<a href=\"/blog/health-check/luteinizing-hormone-all-you-need-to-know-about-lh\">Luteinizing Hormone - All You Need To Know About LH</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/medical-recommendations-and-treatment-options-for-male-infertility",
+      "title": "Medical Recommendations And Treatment Options For Male Infertility",
+      "html": "<a href=\"/blog/health-check/medical-recommendations-and-treatment-options-for-male-infertility\">Medical Recommendations And Treatment Options For Male Infertility</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/menopause",
+      "title": "Understanding Menopause- Causes, Symptoms & Its Impact",
+      "html": "<a href=\"/blog/health-check/menopause\">Understanding Menopause- Causes, Symptoms &amp; Its Impact</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/mycoplasma-genitalium-infection-an-overview",
+      "title": "Mycoplasma Genitalium Infection: An Overview",
+      "html": "<a href=\"/blog/health-check/mycoplasma-genitalium-infection-an-overview\">Mycoplasma Genitalium Infection: An Overview</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/newborn-genetic-screening-in-india-challenges-and-opportunities",
+      "title": "Newborn Genetic Screening In India: Challenges & Opportunities",
+      "html": "<a href=\"/blog/health-check/newborn-genetic-screening-in-india-challenges-and-opportunities\">Newborn Genetic Screening In India: Challenges &amp; Opportunities</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/newborn-sequencing-a-global-revolution-in-newborn-screening",
+      "title": "Newborn Sequencing: A Global Revolution In Newborn Screening",
+      "html": "<a href=\"/blog/health-check/newborn-sequencing-a-global-revolution-in-newborn-screening\">Newborn Sequencing: A Global Revolution In Newborn Screening </a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/non-classical-congenital-adrenal-hyperplasia-an-overview",
+      "title": "Non-Classical Congenital Adrenal Hyperplasia- An Overview!",
+      "html": "<a href=\"/blog/health-check/non-classical-congenital-adrenal-hyperplasia-an-overview\">Non-Classical Congenital Adrenal Hyperplasia- An Overview!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/normal-sperm-count-an-introduction-to-semen-analysis",
+      "title": "Normal Sperm Count: An Introduction To Semen Analysis",
+      "html": "<a href=\"/blog/health-check/normal-sperm-count-an-introduction-to-semen-analysis\">Normal Sperm Count: An Introduction To Semen Analysis</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/early-signs-of-perimenopause",
+      "title": "5 Early Signs Of Perimenopause Women Often Miss",
+      "html": "<a href=\"/blog/general/early-signs-of-perimenopause\">5 Early Signs Of Perimenopause Women Often Miss</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/dha-rich-foods-to-eat-during-pregnancy",
+      "title": "Top 5 Food Items To Include In Your DHA-Rich Diet For Pregnancy",
+      "html": "<a href=\"/blog/health-check/dha-rich-foods-to-eat-during-pregnancy\">Top 5 Food Items To Include In Your DHA-Rich Diet For Pregnancy</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/omega-3-dha-levels-in-pregnancy-heres-what-research-says",
+      "title": "Omega-3 DHA Levels In Pregnancy: Here’s What Research Says",
+      "html": "<a href=\"/blog/health-check/omega-3-dha-levels-in-pregnancy-heres-what-research-says\">Omega-3 DHA Levels In Pregnancy: Here’s What Research Says</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/ovarian-hyperstimulation-syndrome-causes-symptoms-risks-treatment-prevention",
+      "title": "Introduction To Ovarian Hyperstimulation Syndrome (OHSS)",
+      "html": "<a href=\"/blog/health-check/ovarian-hyperstimulation-syndrome-causes-symptoms-risks-treatment-prevention\">Introduction To Ovarian Hyperstimulation Syndrome (OHSS)</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/dha-a-key-nutrient-for-you-and-your-baby-after-birth",
+      "title": "DHA: A Key Nutrient For You & Your Baby After Birth",
+      "html": "<a href=\"/blog/health-check/dha-a-key-nutrient-for-you-and-your-baby-after-birth\">DHA: A Key Nutrient For You &amp; Your Baby After Birth</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/ovarian-reserve-do-you-know-your-egg-count",
+      "title": "Ovarian Reserve - Do You Know Your Egg Count?",
+      "html": "<a href=\"/blog/health-check/ovarian-reserve-do-you-know-your-egg-count\">Ovarian Reserve - Do You Know Your Egg Count?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/overcoming-fertility-challenges",
+      "title": "Overcoming Fertility Challenges: Recurrent Miscarriages, Failed IVF & Unsuccessful Embryo Transfer",
+      "html": "<a href=\"/blog/health-check/overcoming-fertility-challenges\">Overcoming Fertility Challenges: Recurrent Miscarriages, Failed IVF &amp; Unsuccessful Embryo Transfer</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/ovulation-and-fertility-the-best-time-to-get-pregnant",
+      "title": "Ovulation & Fertility: The Best Time To Get Pregnant",
+      "html": "<a href=\"/blog/health-check/ovulation-and-fertility-the-best-time-to-get-pregnant\">Ovulation &amp; Fertility: The Best Time To Get Pregnant</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/pause-your-biological-clock-with-egg-freezing",
+      "title": "Pause Your Biological Clock With Egg Freezing",
+      "html": "<a href=\"/blog/health-check/pause-your-biological-clock-with-egg-freezing\">Pause Your Biological Clock With Egg Freezing</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/pcos-and-fertility-everything-you-need-to-know",
+      "title": "Can PCOS Cause Infertility? Here's What You Should Know",
+      "html": "<a href=\"/blog/health-check/pcos-and-fertility-everything-you-need-to-know\">Can PCOS Cause Infertility? Here's What You Should Know</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/pelvic-inflammatory-disease-pid-causes-symptoms-complications-prevention",
+      "title": "An Overview Of Pelvic Inflammatory Disease",
+      "html": "<a href=\"/blog/health-check/pelvic-inflammatory-disease-pid-causes-symptoms-complications-prevention\">An Overview Of Pelvic Inflammatory Disease</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/perimenopause-weight-gain-causes-risk-factors-and-how-to-combat",
+      "title": "Perimenopause Weight Gain: A Complete Guide!",
+      "html": "<a href=\"/blog/health-check/perimenopause-weight-gain-causes-risk-factors-and-how-to-combat\">Perimenopause Weight Gain: A Complete Guide!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/polycystic-ovarian-syndrome-an-overview",
+      "title": "PCOS Causes, Symptoms, Complications, Diagnosis, Treatment & Management!",
+      "html": "<a href=\"/blog/health-check/polycystic-ovarian-syndrome-an-overview\">PCOS Causes, Symptoms, Complications, Diagnosis, Treatment &amp; Management!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/prevalence-of-stds-in-women",
+      "title": "Prevalence Of STDs In Women",
+      "html": "<a href=\"/blog/health-check/prevalence-of-stds-in-women\">Prevalence Of STDs In Women</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/day-3-hormone-test-know-your-reproductive-health-score",
+      "title": "Day 3 Hormone Test: Know Your Reproductive Health Score",
+      "html": "<a href=\"/blog/health-check/day-3-hormone-test-know-your-reproductive-health-score\">Day 3 Hormone Test: Know Your Reproductive Health Score</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/customized-hormone-test-and-birth-control-pills-a-perfect-match",
+      "title": "Customized Hormone Test & Birth Control Pills: A Perfect Match!",
+      "html": "<a href=\"/blog/health-check/customized-hormone-test-and-birth-control-pills-a-perfect-match\">Customized Hormone Test &amp; Birth Control Pills: A Perfect Match!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/curious-to-know-your-carrier-status",
+      "title": "Curious To Know Your Carrier Status?",
+      "html": "<a href=\"/blog/health-check/curious-to-know-your-carrier-status\">Curious To Know Your Carrier Status?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/congenital-hearing-loss",
+      "title": "Congenital Hearing Loss: Common Causes, Diagnosis, Treatment",
+      "html": "<a href=\"/blog/health-check/congenital-hearing-loss\">Congenital Hearing Loss: Common Causes, Diagnosis, Treatment</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/common-signs-and-symptoms-of-female-hormone-imbalance",
+      "title": "Common Signs And Symptoms Of Female Hormone Imbalance",
+      "html": "<a href=\"/blog/health-check/common-signs-and-symptoms-of-female-hormone-imbalance\">Common Signs And Symptoms Of Female Hormone Imbalance</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/common-breastfeeding-positions-and-tips-for-mother",
+      "title": "Mastering Breastfeeding Positions: Tips for New Moms",
+      "html": "<a href=\"/blog/health-check/common-breastfeeding-positions-and-tips-for-mother\">Mastering Breastfeeding Positions: Tips for New Moms</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/chlamydia-and-gonorrhea-treatment",
+      "title": "Treatment Options For Curable STIs: Chlamydia And Gonorrhea",
+      "html": "<a href=\"/blog/health-check/chlamydia-and-gonorrhea-treatment\">Treatment Options For Curable STIs: Chlamydia And Gonorrhea</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/chlamydia-and-gonorrhea-during-pregnancy-is-your-baby-safe",
+      "title": "Chlamydia And Gonorrhea During Pregnancy - Is Your Baby Safe?",
+      "html": "<a href=\"/blog/health-check/chlamydia-and-gonorrhea-during-pregnancy-is-your-baby-safe\">Chlamydia And Gonorrhea During Pregnancy - Is Your Baby Safe?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/chlamydia-and-gonorrhea-causes-symptoms-and-treatment",
+      "title": "Chlamydia And Gonorrhea: Causes, Symptoms And Treatment",
+      "html": "<a href=\"/blog/health-check/chlamydia-and-gonorrhea-causes-symptoms-and-treatment\">Chlamydia And Gonorrhea: Causes, Symptoms And Treatment</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/primary-ovarian-insufficiency-overview",
+      "title": "Primary Ovarian Insufficiency: Overview",
+      "html": "<a href=\"/blog/health-check/primary-ovarian-insufficiency-overview\">Primary Ovarian Insufficiency: Overview</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/cervical-screening-difference-between-an-hpv-test-and-a-pap-test",
+      "title": "Cervical Cancer Screening: Difference Between An HPV Test & A PAP Test",
+      "html": "<a href=\"/blog/health-check/cervical-screening-difference-between-an-hpv-test-and-a-pap-test\">Cervical Cancer Screening: Difference Between An HPV Test &amp; A PAP Test </a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/proactively-testing-for-std-why-is-it-important",
+      "title": "Proactively Testing For STD: Why Is It Important?",
+      "html": "<a href=\"/blog/health-check/proactively-testing-for-std-why-is-it-important\">Proactively Testing For STD: Why Is It Important?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/cancers-caused-by-hpv-infection",
+      "title": "All You Need To Know About HPV-Related Cancers",
+      "html": "<a href=\"/blog/health-check/cancers-caused-by-hpv-infection\">All You Need To Know About HPV-Related Cancers </a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/prolactin-all-you-need-to-know-about-prl",
+      "title": "Prolactin - All You Need To Know About PRL",
+      "html": "<a href=\"/blog/health-check/prolactin-all-you-need-to-know-about-prl\">Prolactin - All You Need To Know About PRL</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/rare-genetic-conditions-that-can-cause-male-infertility",
+      "title": "Rare Genetic Conditions That Can Cause Male Infertility!",
+      "html": "<a href=\"/blog/health-check/rare-genetic-conditions-that-can-cause-male-infertility\">Rare Genetic Conditions That Can Cause Male Infertility!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/cancer-and-other-medical-conditions-affecting-male-fertility",
+      "title": "Cancer And Other Medical Conditions Affecting Male Fertility",
+      "html": "<a href=\"/blog/health-check/cancer-and-other-medical-conditions-affecting-male-fertility\">Cancer And Other Medical Conditions Affecting Male Fertility</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/can-you-get-pregnant-during-perimenopause-risks-how-to-prevent",
+      "title": "Perimenopause and Pregnancy: Can You Still Get Pregnant?",
+      "html": "<a href=\"/blog/health-check/can-you-get-pregnant-during-perimenopause-risks-how-to-prevent\">Perimenopause and Pregnancy: Can You Still Get Pregnant?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/can-dha-supplementation-help-to-reduce-the-risk-of-preterm-birth",
+      "title": "Can DHA Supplementation Reduce Preterm Birth Risk?",
+      "html": "<a href=\"/blog/health-check/can-dha-supplementation-help-to-reduce-the-risk-of-preterm-birth\">Can DHA Supplementation Reduce Preterm Birth Risk?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/can-covid-19-vaccine-affect-your-chances-of-pregnancy",
+      "title": "Can COVID-19 Vaccine Affect Your Chances of Pregnancy?",
+      "html": "<a href=\"/blog/health-check/can-covid-19-vaccine-affect-your-chances-of-pregnancy\">Can COVID-19 Vaccine Affect Your Chances of Pregnancy?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/can-a-missed-period-be-a-sign-of-hpv-in-women",
+      "title": "Can A Missed Period Be A Sign Of HPV In Women?",
+      "html": "<a href=\"/blog/health-check/can-a-missed-period-be-a-sign-of-hpv-in-women\">Can A Missed Period Be A Sign Of HPV In Women?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/benefits-of-pcr-testing-for-chlamydia-and-gonorrhoea",
+      "title": "Benefits Of PCR Testing For Chlamydia And Gonorrhoea",
+      "html": "<a href=\"/blog/health-check/benefits-of-pcr-testing-for-chlamydia-and-gonorrhoea\">Benefits Of PCR Testing For Chlamydia And Gonorrhoea</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/risk-factors-and-causes-of-cervical-cancer",
+      "title": "Cervical Cancer Causes, Symptoms And Risk Factors",
+      "html": "<a href=\"/blog/health-check/risk-factors-and-causes-of-cervical-cancer\">Cervical Cancer Causes, Symptoms And Risk Factors</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/benefits-of-dha-rich-diet-during-pregnancy",
+      "title": "Benefits Of DHA-Rich Diet During Pregnancy",
+      "html": "<a href=\"/blog/health-check/benefits-of-dha-rich-diet-during-pregnancy\">Benefits Of DHA-Rich Diet During Pregnancy</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/benefits-of-breastfeeding-for-both-mother-and-baby",
+      "title": "Benefits Of Breastfeeding For Both Mom & Baby",
+      "html": "<a href=\"/blog/health-check/benefits-of-breastfeeding-for-both-mother-and-baby\">Benefits Of Breastfeeding For Both Mom &amp; Baby</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/risk-for-hpv-survey-reveals-surprising-statistics-on-sexual-health",
+      "title": "Decoding The Risk For HPV: Survey Reveals Surprising Statistics On Sexual Health!",
+      "html": "<a href=\"/blog/health-check/risk-for-hpv-survey-reveals-surprising-statistics-on-sexual-health\">Decoding The Risk For HPV: Survey Reveals Surprising Statistics On Sexual Health!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/anti-mullerian-hormone-amh-test-purpose-normal-levels-and-test-results",
+      "title": "The Anti-Müllerian Hormone (AMH) Test: A Comprehensive Guide",
+      "html": "<a href=\"/blog/health-check/anti-mullerian-hormone-amh-test-purpose-normal-levels-and-test-results\">The Anti-Müllerian Hormone (AMH) Test: A Comprehensive Guide</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/anti-mullerian-hormone-all-you-need-to-know-about-amh",
+      "title": "Anti Mullerian Hormone - All You Need To Know About AMH",
+      "html": "<a href=\"/blog/health-check/anti-mullerian-hormone-all-you-need-to-know-about-amh\">Anti Mullerian Hormone - All You Need To Know About AMH</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/an-overview-of-herpes-simplex-virus-hsv-2",
+      "title": "An Overview Of Herpes Simplex Virus (HSV-2)",
+      "html": "<a href=\"/blog/health-check/an-overview-of-herpes-simplex-virus-hsv-2\">An Overview Of Herpes Simplex Virus (HSV-2)</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/an-overview-of-fertility-rates-in-south-asia",
+      "title": "An Overview Of Fertility Rates In South Asia",
+      "html": "<a href=\"/blog/health-check/an-overview-of-fertility-rates-in-south-asia\">An Overview Of Fertility Rates In South Asia</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/an-overview-infertility-in-men",
+      "title": "An Overview: Infertility In Men",
+      "html": "<a href=\"/blog/health-check/an-overview-infertility-in-men\">An Overview: Infertility In Men </a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/an-overview-gonorrhea-infection-and-its-symptoms",
+      "title": "An Overview: Gonorrhea Infection & Its Symptoms",
+      "html": "<a href=\"/blog/health-check/an-overview-gonorrhea-infection-and-its-symptoms\">An Overview: Gonorrhea Infection &amp; Its Symptoms</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/risk-of-hpv-infection-in-hiv-positive-women",
+      "title": "Risk of HPV Infection in HIV-Positive Women",
+      "html": "<a href=\"/blog/health-check/risk-of-hpv-infection-in-hiv-positive-women\">Risk of HPV Infection in HIV-Positive Women</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/all-you-need-to-know-about-free-thyroxine-hormone",
+      "title": "All You Need To Know About Free Thyroxine Hormone",
+      "html": "<a href=\"/blog/health-check/all-you-need-to-know-about-free-thyroxine-hormone\">All You Need To Know About Free Thyroxine Hormone</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/role-of-omega-3-dha-during-pregnancy-and-benefits",
+      "title": "Role Of Omega-3 DHA During Pregnancy",
+      "html": "<a href=\"/blog/health-check/role-of-omega-3-dha-during-pregnancy-and-benefits\">Role Of Omega-3 DHA During Pregnancy</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/semen-leakage",
+      "title": "What Causes Semen Leakage and How to Treat It",
+      "html": "<a href=\"/blog/health-check/semen-leakage\">What Causes Semen Leakage and How to Treat It</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/semen-volume-basics-and-overview",
+      "title": "Semen Volume - Basics and Overview",
+      "html": "<a href=\"/blog/health-check/semen-volume-basics-and-overview\">Semen Volume - Basics and Overview </a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/actively-trying-to-conceive-preconception-plan-for-women",
+      "title": "Preconception Care: Things To Do Before Planning A Baby",
+      "html": "<a href=\"/blog/health-check/actively-trying-to-conceive-preconception-plan-for-women\">Preconception Care: Things To Do Before Planning A Baby</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/a-step-by-step-guide-to-prepare-for-parenthood",
+      "title": "A Step-by-step Guide To Prepare for Parenthood",
+      "html": "<a href=\"/blog/health-check/a-step-by-step-guide-to-prepare-for-parenthood\">A Step-by-step Guide To Prepare for Parenthood</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/sexually-transmitted-diseases-chlamydia-vs-gonorrhea",
+      "title": "Sexually Transmitted Diseases: Chlamydia Vs Gonorrhea",
+      "html": "<a href=\"/blog/health-check/sexually-transmitted-diseases-chlamydia-vs-gonorrhea\">Sexually Transmitted Diseases: Chlamydia Vs Gonorrhea </a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/sexually-transmitted-diseases-stds-symptoms-risk-factors-diagnosis-treatment-prevention",
+      "title": "STD Overview: Prevention of Sexually Transmitted Diseases",
+      "html": "<a href=\"/blog/health-check/sexually-transmitted-diseases-stds-symptoms-risk-factors-diagnosis-treatment-prevention\">STD Overview: Prevention of Sexually Transmitted Diseases</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/sperm-concentration-basics-and-overview",
+      "title": "Sperm Concentration - Basics And Overview",
+      "html": "<a href=\"/blog/health-check/sperm-concentration-basics-and-overview\">Sperm Concentration - Basics And Overview </a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/sperm-count-basics-and-overview",
+      "title": "Sperm Count - Basics And Overview",
+      "html": "<a href=\"/blog/health-check/sperm-count-basics-and-overview\">Sperm Count - Basics And Overview</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/a-sneak-peek-into-spermscore-kit-box-used-for-sample-collection",
+      "title": "A Sneak Peek Into SpermScore Kit Box Used For Sample Collection",
+      "html": "<a href=\"/blog/health-check/a-sneak-peek-into-spermscore-kit-box-used-for-sample-collection\">A Sneak Peek Into SpermScore Kit Box Used For Sample Collection</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/sperm-dna-fragmentation-at-a-glance",
+      "title": "Sperm DNA Fragmentation At A Glance",
+      "html": "<a href=\"/blog/health-check/sperm-dna-fragmentation-at-a-glance\">Sperm DNA Fragmentation At A Glance</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/a-lactating-moms-guide-to-understanding-dha-test-results",
+      "title": "A Lactating Mom’s Guide To Understanding DHA Test Results",
+      "html": "<a href=\"/blog/health-check/a-lactating-moms-guide-to-understanding-dha-test-results\">A Lactating Mom’s Guide To Understanding DHA Test Results</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/a-detailed-guide-on-sperm-chromatin-dispersion-test",
+      "title": "A Detailed Guide On Sperm Chromatin Dispersion Assay",
+      "html": "<a href=\"/blog/health-check/a-detailed-guide-on-sperm-chromatin-dispersion-test\">A Detailed Guide On Sperm Chromatin Dispersion Assay</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/sperm-morphology-basics-and-overview",
+      "title": "Sperm Morphology - Basics And Overview",
+      "html": "<a href=\"/blog/health-check/sperm-morphology-basics-and-overview\">Sperm Morphology - Basics And Overview </a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/a-complete-guide-on-how-anti-mullerian-hormone-predicts-menopause",
+      "title": "A Complete Guide On How Anti-Mullerian Hormone Predicts Menopause",
+      "html": "<a href=\"/blog/health-check/a-complete-guide-on-how-anti-mullerian-hormone-predicts-menopause\">A Complete Guide On How Anti-Mullerian Hormone Predicts Menopause</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/sperm-vitality-basics-and-overview",
+      "title": "Sperm Vitality - Basics And Overview",
+      "html": "<a href=\"/blog/health-check/sperm-vitality-basics-and-overview\">Sperm Vitality - Basics And Overview </a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/5-tips-to-manage-hormonal-imbalance",
+      "title": "5 Tips To Manage Hormonal Imbalance",
+      "html": "<a href=\"/blog/health-check/5-tips-to-manage-hormonal-imbalance\">5 Tips To  Manage Hormonal Imbalance</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/std-symptoms-in-females-a-complete-guide",
+      "title": "STD Symptoms In Females: A Complete Guide",
+      "html": "<a href=\"/blog/health-check/std-symptoms-in-females-a-complete-guide\">STD Symptoms In Females: A Complete Guide </a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/how-to-increase-sperm-count",
+      "title": "How To Increase Sperm Count & Improve Sperm Quality",
+      "html": "<a href=\"/blog/health-check/how-to-increase-sperm-count\">How To Increase Sperm Count &amp; Improve Sperm Quality</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/std-testing",
+      "title": "Everything You Need To Know About STD Testing",
+      "html": "<a href=\"/blog/health-check/std-testing\">Everything You Need To Know About STD Testing</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/4-long-term-complications-of-untreated-chlamydia-and-gonorrhoea",
+      "title": "4 Long-term Complications Of Untreated Chlamydia And Gonorrhoea",
+      "html": "<a href=\"/blog/health-check/4-long-term-complications-of-untreated-chlamydia-and-gonorrhoea\">4 Long-term Complications Of Untreated Chlamydia And Gonorrhoea</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/3-surgical-treatments-that-can-cause-male-infertility",
+      "title": "3 Surgical Treatments That Can Cause Male Infertility",
+      "html": "<a href=\"/blog/health-check/3-surgical-treatments-that-can-cause-male-infertility\">3 Surgical Treatments That Can Cause Male Infertility</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/3-facts-about-cervical-cancer-and-hpv",
+      "title": "3 Facts About Cervical Cancer And HPV",
+      "html": "<a href=\"/blog/health-check/3-facts-about-cervical-cancer-and-hpv\">3 Facts About Cervical Cancer And HPV</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/symptoms-of-chlamydia-in-men-and-its-treatment",
+      "title": "Symptoms Of Chlamydia In Men And Its Treatment",
+      "html": "<a href=\"/blog/health-check/symptoms-of-chlamydia-in-men-and-its-treatment\">Symptoms Of Chlamydia In Men And Its Treatment</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/symptoms-of-hpv-in-women-prevention-and-treatment",
+      "title": "HPV Symptoms In Females: Prevention And Treatment",
+      "html": "<a href=\"/blog/health-check/symptoms-of-hpv-in-women-prevention-and-treatment\">HPV Symptoms In Females: Prevention And Treatment </a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/symptoms-of-stds-in-pregnant-women",
+      "title": "Discover The Symptoms Of STDs In Women During Pregnancy",
+      "html": "<a href=\"/blog/health-check/symptoms-of-stds-in-pregnant-women\">Discover The Symptoms Of STDs In Women During Pregnancy</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/testosterone-all-you-need-to-know-about-the-hormone",
+      "title": "Testosterone - All You Need To Know About The Hormone",
+      "html": "<a href=\"/blog/health-check/testosterone-all-you-need-to-know-about-the-hormone\">Testosterone - All You Need To Know About The Hormone</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/the-benefits-of-predicting-your-final-menstrual-period",
+      "title": "The Benefits Of Predicting Your Final Menstrual Period",
+      "html": "<a href=\"/blog/health-check/the-benefits-of-predicting-your-final-menstrual-period\">The Benefits Of Predicting Your Final Menstrual Period</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/the-difference-and-meaning-of-perimenopause-and-menopause-explained",
+      "title": "The Difference And Meaning Of Perimenopause and Menopause - Explained!",
+      "html": "<a href=\"/blog/health-check/the-difference-and-meaning-of-perimenopause-and-menopause-explained\">The Difference And Meaning Of Perimenopause and Menopause - Explained!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/the-effects-of-chemotherapy-on-sperm-health-and-male-fertility",
+      "title": "The Effects of Chemotherapy On Sperm Health & Male Fertility",
+      "html": "<a href=\"/blog/health-check/the-effects-of-chemotherapy-on-sperm-health-and-male-fertility\">The Effects of Chemotherapy On Sperm Health &amp; Male Fertility</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/the-effects-of-supplements-on-male-fertility",
+      "title": "The Effects Of Supplements On Male Fertility: What You Need To Know",
+      "html": "<a href=\"/blog/health-check/the-effects-of-supplements-on-male-fertility\">The Effects Of Supplements On Male Fertility: What You Need To Know </a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/the-perils-of-antibiotic-resistance-in-stis-sexually-transmitted-infections",
+      "title": "Sexually Transmitted Infections & Antibiotic Resistance: What You Need to Know",
+      "html": "<a href=\"/blog/health-check/the-perils-of-antibiotic-resistance-in-stis-sexually-transmitted-infections\">Sexually Transmitted Infections &amp; Antibiotic Resistance: What You Need to Know</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/top-5-foods-to-eat-while-breastfeeding",
+      "title": "Breastfeeding Diet: Foods To Eat And Avoid While Breastfeeding!",
+      "html": "<a href=\"/blog/health-check/top-5-foods-to-eat-while-breastfeeding\">Breastfeeding Diet: Foods To Eat And Avoid While Breastfeeding!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/top-reasons-to-track-your-biological-clock",
+      "title": "Top Reasons To Track Your Biological Clock",
+      "html": "<a href=\"/blog/health-check/top-reasons-to-track-your-biological-clock\">Top Reasons To Track Your Biological Clock</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/total-motile-count-basics-and-overview",
+      "title": "Total Motile Count - Basics and Overview",
+      "html": "<a href=\"/blog/health-check/total-motile-count-basics-and-overview\">Total Motile Count - Basics and Overview</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/total-motility-basics-and-overview",
+      "title": "Total Motility - Basics And Overview",
+      "html": "<a href=\"/blog/health-check/total-motility-basics-and-overview\">Total Motility - Basics And Overview </a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/treatment-for-chlamydia-bacteria-infection",
+      "title": "Treatment For Chlamydia In A Nutshell!",
+      "html": "<a href=\"/blog/health-check/treatment-for-chlamydia-bacteria-infection\">Treatment For Chlamydia In A Nutshell!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/treatment-for-gonorrhoea",
+      "title": "Treatment For Gonorrhea: An Overview!",
+      "html": "<a href=\"/blog/health-check/treatment-for-gonorrhoea\">Treatment For Gonorrhea: An Overview!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/trichomoniasis-an-overview",
+      "title": "Trichomoniasis: An Overview",
+      "html": "<a href=\"/blog/health-check/trichomoniasis-an-overview\">Trichomoniasis: An Overview</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/types-of-hpv-infections-low-risk-and-high-risk",
+      "title": "HPV Types: High Risk HPV & Low Risk HPV",
+      "html": "<a href=\"/blog/health-check/types-of-hpv-infections-low-risk-and-high-risk\">HPV Types: High Risk HPV &amp; Low Risk HPV</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/what-are-the-benefits-of-omega-3-fatty-acids",
+      "title": "What Are The Benefits Of Omega-3 Fatty Acids?",
+      "html": "<a href=\"/blog/health-check/what-are-the-benefits-of-omega-3-fatty-acids\">What Are The Benefits Of Omega-3 Fatty Acids?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/what-are-the-most-common-stds-in-men",
+      "title": "What Are The Most Common STDs In Men?",
+      "html": "<a href=\"/blog/health-check/what-are-the-most-common-stds-in-men\">What Are The Most Common STDs In Men?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/what-are-the-most-common-stds-in-women",
+      "title": "What Are The Most Common STDs In Women?",
+      "html": "<a href=\"/blog/health-check/what-are-the-most-common-stds-in-women\">What Are The Most Common STDs In Women?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/what-are-the-side-effects-of-working-at-night",
+      "title": "Tips For Tackling Negative Effects Of Working At Night",
+      "html": "<a href=\"/blog/health-check/what-are-the-side-effects-of-working-at-night\">Tips For Tackling Negative Effects Of Working At Night</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/what-happens-to-the-ovaries-during-menopause",
+      "title": "Unraveling Perimenopause: What Happens To Your Ovaries During Menopause?",
+      "html": "<a href=\"/blog/health-check/what-happens-to-the-ovaries-during-menopause\">Unraveling Perimenopause: What Happens To Your Ovaries During Menopause?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/what-is-colostrum-know-importance-and-benefits-for-newborns",
+      "title": "Colostrum: What It Is & Why It's So Important For Newborns",
+      "html": "<a href=\"/blog/health-check/what-is-colostrum-know-importance-and-benefits-for-newborns\">Colostrum: What It Is &amp; Why It's So Important For Newborns</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/what-is-the-molecular-biology-of-a-sperm",
+      "title": "What Is The Molecular Biology Of A Sperm?",
+      "html": "<a href=\"/blog/health-check/what-is-the-molecular-biology-of-a-sperm\">What Is The Molecular Biology Of A Sperm?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/what-is-the-recommended-dose-of-omega-3-dha",
+      "title": "What Is The Recommended Dose Of Omega-3 DHA?",
+      "html": "<a href=\"/blog/health-check/what-is-the-recommended-dose-of-omega-3-dha\">What Is The Recommended Dose Of Omega-3 DHA?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/what-is-trio-exome-sequencing",
+      "title": "What Is Trio-exome Sequencing?",
+      "html": "<a href=\"/blog/health-check/what-is-trio-exome-sequencing\">What Is Trio-exome Sequencing?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/whats-a-fertility-test-kit-and-how-to-use-one",
+      "title": "What’s A Fertility Test Kit & How To Use One!",
+      "html": "<a href=\"/blog/health-check/whats-a-fertility-test-kit-and-how-to-use-one\">What’s A Fertility Test Kit &amp; How To Use One!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/whats-the-difference-between-epa-and-dha",
+      "title": "What’s The Difference Between EPA And DHA?",
+      "html": "<a href=\"/blog/health-check/whats-the-difference-between-epa-and-dha\">What’s The Difference Between EPA And DHA?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/why-am-i-not-getting-pregnant-when-everything-is-normal",
+      "title": "Trying To Conceive: What To Do After A Year Of No Success",
+      "html": "<a href=\"/blog/health-check/why-am-i-not-getting-pregnant-when-everything-is-normal\">Trying To Conceive: What To Do After A Year Of No Success</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/why-take-carrier-screening-test-while-planning-for-your-pregnancy",
+      "title": "Why Take Carrier Screening Test While Planning For Your Pregnancy?",
+      "html": "<a href=\"/blog/health-check/why-take-carrier-screening-test-while-planning-for-your-pregnancy\">Why Take Carrier Screening Test While Planning For Your Pregnancy? </a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/y-chromosome-infertility-types-diagnosis-and-treatment",
+      "title": "Y-chromosomal Microdeletions (YCMD)",
+      "html": "<a href=\"/blog/health-check/y-chromosome-infertility-types-diagnosis-and-treatment\">Y-chromosomal Microdeletions (YCMD)</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/your-step-by-step-guide-to-egg-freezing-in-india",
+      "title": "Your Step-By-Step Guide To Egg Freezing in India",
+      "html": "<a href=\"/blog/health-check/your-step-by-step-guide-to-egg-freezing-in-india\">Your Step-By-Step Guide To Egg Freezing in India </a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/the-basics-of-sperm-an-overview",
+      "title": "The Basics Of Sperm - An Overview",
+      "html": "<a href=\"/blog/health-check/the-basics-of-sperm-an-overview\">The Basics Of Sperm - An Overview</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/male-infertility-due-to-surgical-treatments",
+      "title": "Male Infertility: Due to Surgical Treatments",
+      "html": "<a href=\"/blog/health-bank/male-infertility-due-to-surgical-treatments\">Male Infertility: Due to Surgical Treatments</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/best-vegan-omega-3-rich-foods",
+      "title": "Top 6 Vegan Omega-3-Rich Foods To Incorporate Into Your Diet",
+      "html": "<a href=\"/blog/general/best-vegan-omega-3-rich-foods\">Top 6 Vegan Omega-3-Rich Foods To Incorporate Into Your Diet</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/baby-boy-names-starting-with-m",
+      "title": "10 Unique Baby Boy Names Starting With M",
+      "html": "<a href=\"/blog/general/baby-boy-names-starting-with-m\">10 Unique Baby Boy Names Starting With M</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/baby-boy-names-starting-with-k",
+      "title": "Top 10 Baby Boy Names Starting With K",
+      "html": "<a href=\"/blog/general/baby-boy-names-starting-with-k\">Top 10 Baby Boy Names Starting With K</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/baby-boy-names-starting-with-h",
+      "title": "10 Unique Baby Boy Names Starting With H",
+      "html": "<a href=\"/blog/general/baby-boy-names-starting-with-h\">10 Unique Baby Boy Names Starting With H</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/5-amazing-baby-shower-gift-ideas-for-your-friend",
+      "title": "5 Amazing Baby Shower Gift Ideas For Your Friend",
+      "html": "<a href=\"/blog/general/5-amazing-baby-shower-gift-ideas-for-your-friend\">5 Amazing Baby Shower Gift Ideas For Your Friend</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/stem-cells/hematopoietic-stem-cells",
+      "title": "Hematopoietic Stem Cells: Can They Save Lives?",
+      "html": "<a href=\"/blog/stem-cells/hematopoietic-stem-cells\">Hematopoietic Stem Cells: Can They Save Lives? </a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/acute-fatty-liver-of-pregnancy",
+      "title": "Acute Fatty Liver Of Pregnancy: Symptoms Every Pregnant Woman Should Know",
+      "html": "<a href=\"/blog/general/acute-fatty-liver-of-pregnancy\">Acute Fatty Liver Of Pregnancy:  Symptoms Every Pregnant Woman Should Know</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-and-nutrition/premature-birth-causes-complications-and-prevention",
+      "title": "Premature Birth: Causes, Complications & Prevention!",
+      "html": "<a href=\"/blog/health-and-nutrition/premature-birth-causes-complications-and-prevention\">Premature Birth: Causes, Complications &amp; Prevention!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-and-nutrition/common-complications-during-pregnancy",
+      "title": "Common Complications During Pregnancy: Overview",
+      "html": "<a href=\"/blog/health-and-nutrition/common-complications-during-pregnancy\">Common Complications During Pregnancy: Overview </a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/hiv-in-pregnancy",
+      "title": "HIV In Pregnancy: What You Need to Know",
+      "html": "<a href=\"/blog/general/hiv-in-pregnancy\">HIV In Pregnancy: What You Need to Know</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/swelling-during-pregnancy",
+      "title": "Swelling During Pregnancy? What's Normal and What's Not",
+      "html": "<a href=\"/blog/general/swelling-during-pregnancy\">Swelling During Pregnancy? What's Normal and What's Not</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/pregnancy-hemorrhoids-causes-risks-prevention",
+      "title": "Hemorrhoids During Pregnancy: A Step-by-Step Guide",
+      "html": "<a href=\"/blog/general/pregnancy-hemorrhoids-causes-risks-prevention\">Hemorrhoids During Pregnancy: A Step-by-Step Guide</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/benefits-of-prenatal-yoga-for-expecting-mothers",
+      "title": "8 Transformative Benefits Of Prenatal Yoga For Expectant Mothers",
+      "html": "<a href=\"/blog/general/benefits-of-prenatal-yoga-for-expecting-mothers\">8 Transformative Benefits Of Prenatal Yoga For Expectant Mothers</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/newborn-screening-test",
+      "title": "Newborn Screening Tests: A Step-by-Step Guide For New Parents",
+      "html": "<a href=\"/blog/general/newborn-screening-test\">Newborn Screening Tests: A Step-by-Step Guide For New Parents</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/jaundice-in-newborns",
+      "title": "Jaundice In Newborns: When To Worry & How To Manage It",
+      "html": "<a href=\"/blog/general/jaundice-in-newborns\">Jaundice In Newborns: When To Worry &amp; How To Manage It</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/prenatal-yoga-poses-during-pregnancy",
+      "title": "Prenatal Yoga Poses During Pregnancy: A Complete Guide",
+      "html": "<a href=\"/blog/general/prenatal-yoga-poses-during-pregnancy\">Prenatal Yoga Poses During Pregnancy: A Complete Guide</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/prenatal-checkup-questions-to-ask-your-doctor",
+      "title": "12 Important Prenatal Checkup Questions To Ask Your Doctor",
+      "html": "<a href=\"/blog/general/prenatal-checkup-questions-to-ask-your-doctor\">12 Important Prenatal Checkup Questions To Ask Your Doctor</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-and-nutrition/why-walking-important-during-pregnancy",
+      "title": "Benefits Of Exercising During Pregnancy",
+      "html": "<a href=\"/blog/health-and-nutrition/why-walking-important-during-pregnancy\">Benefits Of Exercising During Pregnancy </a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/hepatitis-during-pregnancy-causes-symptoms-and-treatment",
+      "title": "Hepatitis During Pregnancy - Causes, Symptoms And Treatment",
+      "html": "<a href=\"/blog/general/hepatitis-during-pregnancy-causes-symptoms-and-treatment\">Hepatitis During Pregnancy - Causes, Symptoms And Treatment</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-and-nutrition/important-supplements-during-pregnancy",
+      "title": "Important Supplements During Pregnancy: What’s Safe?",
+      "html": "<a href=\"/blog/health-and-nutrition/important-supplements-during-pregnancy\">Important Supplements During Pregnancy: What’s Safe?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/miscarriage-symptoms-causes-diagnosis-treatment-prevention",
+      "title": "Miscarriage Symptoms, Causes, Diagnosis, And Treatment Options",
+      "html": "<a href=\"/blog/general/miscarriage-symptoms-causes-diagnosis-treatment-prevention\">Miscarriage Symptoms, Causes, Diagnosis, And Treatment Options</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/varicose-veins-during-pregnancy",
+      "title": "The Truth About Varicose Veins During Pregnancy",
+      "html": "<a href=\"/blog/general/varicose-veins-during-pregnancy\">The Truth About Varicose Veins During Pregnancy</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/pregnancy-complications-associated-with-pcos",
+      "title": "PCOS and Pregnancy Complications: What to Watch Out For!",
+      "html": "<a href=\"/blog/general/pregnancy-complications-associated-with-pcos\">PCOS and Pregnancy Complications: What to Watch Out For!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/epilepsy-during-pregnancy-risks-symptoms-diagnosis-and-management",
+      "title": "Epilepsy During Pregnancy: Risks, Symptoms, Diagnosis & Management",
+      "html": "<a href=\"/blog/general/epilepsy-during-pregnancy-risks-symptoms-diagnosis-and-management\">Epilepsy During Pregnancy: Risks, Symptoms, Diagnosis &amp; Management</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/pregnancy-spotting",
+      "title": "Pregnancy Spotting: Understanding What’s Normal",
+      "html": "<a href=\"/blog/general/pregnancy-spotting\">Pregnancy Spotting: Understanding What’s Normal</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/sickle-cell-anemia-causes-symptoms-diagnosis-treatment",
+      "title": "Sickle Cell Anemia: Causes, Symptoms, Diagnosis And Treatment!",
+      "html": "<a href=\"/blog/general/sickle-cell-anemia-causes-symptoms-diagnosis-treatment\">Sickle Cell Anemia: Causes, Symptoms, Diagnosis And Treatment!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/pregnancy-sleeping-positions",
+      "title": "Best Sleeping Position for Pregnant Women: What You Should Know",
+      "html": "<a href=\"/blog/general/pregnancy-sleeping-positions\">Best Sleeping Position for Pregnant Women: What You Should Know</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/rib-pain-during-pregnancy",
+      "title": "Rib Pain During Pregnancy: How Can You Ease The Discomfort?",
+      "html": "<a href=\"/blog/general/rib-pain-during-pregnancy\">Rib Pain During Pregnancy: How Can You Ease The Discomfort?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-and-nutrition/preeclampsia-an-overview",
+      "title": "Preeclampsia - An Overview",
+      "html": "<a href=\"/blog/health-and-nutrition/preeclampsia-an-overview\">Preeclampsia - An Overview</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/best-fathers-day-gifts-from-daughters",
+      "title": "Celebrating All Dads: Meaningful Father's Day Gifts From Daughters!!",
+      "html": "<a href=\"/blog/general/best-fathers-day-gifts-from-daughters\">Celebrating All Dads: Meaningful Father's Day Gifts From Daughters!!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/hyperprolactinemia-causes-and-symptoms",
+      "title": "Can Hyperprolactinemia Cause Infertility?",
+      "html": "<a href=\"/blog/general/hyperprolactinemia-causes-and-symptoms\">Can Hyperprolactinemia Cause Infertility?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/everything-you-should-know-about-breech-position",
+      "title": "Everything You Should Know About Breech Position",
+      "html": "<a href=\"/blog/health-bank/everything-you-should-know-about-breech-position\">Everything You Should Know About Breech Position</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/stem-cells/how-stem-cell-transplant-saved-lives",
+      "title": "Real-Life Success Stories: How Stem Cell Transplant Saved Lives",
+      "html": "<a href=\"/blog/stem-cells/how-stem-cell-transplant-saved-lives\">Real-Life Success Stories: How Stem Cell Transplant Saved Lives</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/hepatitis",
+      "title": "Hepatitis: Types, Causes, Symptoms, Treatment And Prevention",
+      "html": "<a href=\"/blog/general/hepatitis\">Hepatitis: Types, Causes, Symptoms, Treatment And Prevention </a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/umbilical-cord-prolapse",
+      "title": "What Is Umbilical Cord Prolapse?",
+      "html": "<a href=\"/blog/health-bank/umbilical-cord-prolapse\">What Is Umbilical Cord Prolapse?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/blood-in-semen",
+      "title": "Understanding Hematospermia: What Causes Blood In Semen?",
+      "html": "<a href=\"/blog/general/blood-in-semen\">Understanding Hematospermia: What Causes Blood In Semen?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-and-nutrition/top-food-to-avoid-during-pregnancy",
+      "title": "10 Foods To Avoid During Pregnancy",
+      "html": "<a href=\"/blog/health-and-nutrition/top-food-to-avoid-during-pregnancy\">10 Foods To Avoid During Pregnancy</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/white-discharge-during-pregnancy",
+      "title": "Vaginal Discharge During Pregnancy: What to Expect",
+      "html": "<a href=\"/blog/general/white-discharge-during-pregnancy\">Vaginal Discharge During Pregnancy: What to Expect</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/hypothyroidism-in-pregnancy",
+      "title": "Hypothyroidism In Pregnancy: Causes, Symptoms, And Management",
+      "html": "<a href=\"/blog/general/hypothyroidism-in-pregnancy\">Hypothyroidism In Pregnancy: Causes, Symptoms, And Management</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/how-to-stop-breastfeeding",
+      "title": "How to Stop Breastfeeding: Everything You Need to Know",
+      "html": "<a href=\"/blog/general/how-to-stop-breastfeeding\">How to Stop Breastfeeding: Everything You Need to Know</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-and-nutrition/food-cravings-during-pregnancy-and-how-to-manage",
+      "title": "Food Cravings During Pregnancy: What Causes Them?",
+      "html": "<a href=\"/blog/health-and-nutrition/food-cravings-during-pregnancy-and-how-to-manage\">Food Cravings During Pregnancy: What Causes Them?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/geriatric-pregnancy",
+      "title": "Geriatric Pregnancy: A Comprehensive Guide For Pregnancy After 35",
+      "html": "<a href=\"/blog/general/geriatric-pregnancy\">Geriatric Pregnancy: A Comprehensive Guide For Pregnancy After 35 </a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/20-years-of-lifecell-success",
+      "title": "Cheers To 20 Years Of Success And Many More To Come!",
+      "html": "<a href=\"/blog/general/20-years-of-lifecell-success\">Cheers To 20 Years Of Success And Many More To Come!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/reasons-for-delayed-periods",
+      "title": "7 Reasons For Delayed Periods (And It’s Not Pregnancy)",
+      "html": "<a href=\"/blog/general/reasons-for-delayed-periods\">7 Reasons For Delayed Periods (And It’s Not Pregnancy)</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/constipation-in-pregnancy",
+      "title": "Constipation During Pregnancy: Can It Harm Your Baby?",
+      "html": "<a href=\"/blog/general/constipation-in-pregnancy\">Constipation During Pregnancy: Can It Harm Your Baby?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-and-nutrition/breast-milk-the-best-nutrition-for-your-baby",
+      "title": "Breast milk: The best nutrition for your baby",
+      "html": "<a href=\"/blog/health-and-nutrition/breast-milk-the-best-nutrition-for-your-baby\">Breast milk: The best nutrition for your baby</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/hospital-bag-checklist-top-10-must-haves",
+      "title": "Delivery Hospital Bag Checklist: Top 10 Must-Haves!",
+      "html": "<a href=\"/blog/general/hospital-bag-checklist-top-10-must-haves\">Delivery Hospital Bag Checklist: Top 10 Must-Haves!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/world-hepatitis-day-date-theme-history-and-importance",
+      "title": "World Hepatitis Day: Date, Theme, History & Importance!",
+      "html": "<a href=\"/blog/general/world-hepatitis-day-date-theme-history-and-importance\">World Hepatitis Day: Date, Theme, History &amp; Importance!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/water-break-in-pregnancy",
+      "title": "Water Break During Pregnancy: Everything You Need To Know",
+      "html": "<a href=\"/blog/general/water-break-in-pregnancy\">Water Break During Pregnancy: Everything You Need To Know</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/vasa-previa",
+      "title": "Understanding Vasa Previa: What Expecting Parents Need to Know",
+      "html": "<a href=\"/blog/general/vasa-previa\">Understanding Vasa Previa: What Expecting Parents Need to Know</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/tips-to-get-pregnant-after-miscarriage",
+      "title": "8 Tips To Get Pregnant After Miscarriage",
+      "html": "<a href=\"/blog/general/tips-to-get-pregnant-after-miscarriage\">8 Tips To Get Pregnant After Miscarriage</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/pregnancy-rhinitis",
+      "title": "Pregnancy Rhinitis: Decoding This Pesky Mystery",
+      "html": "<a href=\"/blog/general/pregnancy-rhinitis\">Pregnancy Rhinitis: Decoding This Pesky Mystery</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/can-birth-control-pills-cause-infertility",
+      "title": "Can Birth Control Pills Cause Infertility In The Future?",
+      "html": "<a href=\"/blog/general/can-birth-control-pills-cause-infertility\">Can Birth Control Pills Cause Infertility In The Future?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/stomach-pain-during-pregnancy",
+      "title": "Stomach Pain During Pregnancy: What’s Normal & What’s Not",
+      "html": "<a href=\"/blog/general/stomach-pain-during-pregnancy\">Stomach Pain During Pregnancy: What’s Normal &amp; What’s Not</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/sex-in-pregnancy",
+      "title": "Is It Safe To Have Sex During Pregnancy?",
+      "html": "<a href=\"/blog/general/sex-in-pregnancy\">Is It Safe To Have Sex During Pregnancy?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/pregnancy-test",
+      "title": "A Complete Guide To Pregnancy Tests: When, How & What To Expect",
+      "html": "<a href=\"/blog/general/pregnancy-test\">A Complete Guide To Pregnancy Tests: When, How &amp; What To Expect</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/understanding-sheehan-syndrome",
+      "title": "Understanding Sheehan's Syndrome: Causes, Symptoms, and Treatment",
+      "html": "<a href=\"/blog/health-check/understanding-sheehan-syndrome\">Understanding Sheehan's Syndrome: Causes, Symptoms, and Treatment</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/fertility-challanges",
+      "title": "Overcoming Fertility Challenges: Recurrent Miscarriages, Failed IVF & Unsuccessful Embryo Transfer",
+      "html": "<a href=\"/blog/health-check/fertility-challanges\">Overcoming Fertility Challenges: Recurrent Miscarriages, Failed IVF &amp; Unsuccessful Embryo Transfer</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/how-to-cure-leg-pain-during-pregnancy",
+      "title": "How To Cure Leg Pain During Pregnancy?",
+      "html": "<a href=\"/blog/health-bank/how-to-cure-leg-pain-during-pregnancy\">How To Cure Leg Pain During Pregnancy?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/cancer-screening-tests-for-women",
+      "title": "All You Need To Know About Cancer Screening Tests For Women",
+      "html": "<a href=\"/blog/general/cancer-screening-tests-for-women\">All You Need To Know About Cancer Screening Tests For Women</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/how-to-control-high-blood-pressure",
+      "title": "How To Control High Blood Pressure: A Comprehensive Guide",
+      "html": "<a href=\"/blog/general/how-to-control-high-blood-pressure\">How To Control High Blood Pressure: A Comprehensive Guide</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/stem-cells/stem-cell-banking-online-guide",
+      "title": "Your Quick Online Guide To Stem Cell Banking!",
+      "html": "<a href=\"/blog/stem-cells/stem-cell-banking-online-guide\">Your Quick Online Guide To Stem Cell Banking!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/pregnancy-gingivitis",
+      "title": "Pregnancy Gingivitis: A Comprehensive Guide",
+      "html": "<a href=\"/blog/general/pregnancy-gingivitis\">Pregnancy Gingivitis: A Comprehensive Guide </a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/fibroids-during-pregnancy",
+      "title": "Navigating The Challenges Of Fibroids During Pregnancy",
+      "html": "<a href=\"/blog/general/fibroids-during-pregnancy\">Navigating The Challenges Of Fibroids During Pregnancy</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/vaginal-birth-after-cesarean",
+      "title": "Is Vaginal Birth After Cesarean (VBAC) A Safe Option?",
+      "html": "<a href=\"/blog/general/vaginal-birth-after-cesarean\">Is Vaginal Birth After Cesarean (VBAC) A Safe Option?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-clinic/all-you-need-to-know-about-mesenchymal-stem-cells-mscs-and-its-clinical-applications",
+      "title": "All You Need To Know About Mesenchymal Stem Cells (MSC’s) & Its Clinical Applications",
+      "html": "<a href=\"/blog/health-clinic/all-you-need-to-know-about-mesenchymal-stem-cells-mscs-and-its-clinical-applications\">All You Need To Know About Mesenchymal Stem Cells (MSC’s) &amp; Its Clinical Applications</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/diarrhoea-during-pregnancy",
+      "title": "Diarrhoea During Pregnancy: Causes, Symptoms & Remedies",
+      "html": "<a href=\"/blog/general/diarrhoea-during-pregnancy\">Diarrhoea During Pregnancy: Causes, Symptoms &amp; Remedies </a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/implantation-bleeding",
+      "title": "Implantation Bleeding: An Overview",
+      "html": "<a href=\"/blog/general/implantation-bleeding\">Implantation Bleeding: An Overview</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/differences-between-adult-stem-cells-and-embryonic-stem-cells",
+      "title": "Differences Between Adult Stem Cells And Embryonic Stem Cells: Explained",
+      "html": "<a href=\"/blog/health-bank/differences-between-adult-stem-cells-and-embryonic-stem-cells\">Differences Between Adult Stem Cells And Embryonic Stem Cells: Explained</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/unrelated-bone-marrow-transplantation-vs-cord-blood-transplantation",
+      "title": "Unrelated Bone Marrow Transplantation Vs. Cord Blood Transplantation For Chronic Myelomonocytic Leukemia",
+      "html": "<a href=\"/blog/health-bank/unrelated-bone-marrow-transplantation-vs-cord-blood-transplantation\">Unrelated Bone Marrow Transplantation Vs. Cord Blood Transplantation For Chronic Myelomonocytic Leukemia</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/depression-during-pregnancy",
+      "title": "How To Cope With Depression During Pregnancy?",
+      "html": "<a href=\"/blog/general/depression-during-pregnancy\">How To Cope With Depression During Pregnancy?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/back-pain-during-pregnancy",
+      "title": "Back Pain During Pregnancy",
+      "html": "<a href=\"/blog/general/back-pain-during-pregnancy\">Back Pain During Pregnancy</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/stem-cell-therapy-in-ivf-treatment-infertility",
+      "title": "Stem Cell Therapy In IVF Treatment & Infertility : A New Ray Of Hope?",
+      "html": "<a href=\"/blog/general/stem-cell-therapy-in-ivf-treatment-infertility\">Stem Cell Therapy In IVF Treatment &amp; Infertility : A New Ray Of Hope?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/sleeping-positions-during-pregnancy",
+      "title": "Pregnancy Sleeping Positions",
+      "html": "<a href=\"/blog/general/sleeping-positions-during-pregnancy\">Pregnancy Sleeping Positions</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/baby-girl-names-starting-with-m",
+      "title": "10 Unique Baby Girl Names Starting With M",
+      "html": "<a href=\"/blog/general/baby-girl-names-starting-with-m\">10 Unique Baby Girl Names Starting With M</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/pcos-diet-foods-to-eat-and-avoid",
+      "title": "PCOS Diet Guide: Manage Your Symptoms With The Right Nutrition!",
+      "html": "<a href=\"/blog/general/pcos-diet-foods-to-eat-and-avoid\">PCOS Diet Guide: Manage Your Symptoms With The Right Nutrition!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/ivf-success-rates-by-age",
+      "title": "IVF Success Rates: What You Need to Know!",
+      "html": "<a href=\"/blog/general/ivf-success-rates-by-age\">IVF Success Rates: What You Need to Know!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/ivf-frequently-asked-questions",
+      "title": "IVF Treatment FAQs: Answered!",
+      "html": "<a href=\"/blog/general/ivf-frequently-asked-questions\">IVF Treatment FAQs: Answered!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/how-does-thyroid-affect-male-fertility",
+      "title": "Unveiling the Connection: How Does Thyroid Affect Male Fertility?",
+      "html": "<a href=\"/blog/general/how-does-thyroid-affect-male-fertility\">Unveiling the Connection: How Does Thyroid Affect Male Fertility?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-and-nutrition/unique-baby-boy-names-starting-with-c",
+      "title": "9 Unique Baby Boy Names Starting With C",
+      "html": "<a href=\"/blog/health-and-nutrition/unique-baby-boy-names-starting-with-c\">9 Unique Baby Boy Names Starting With C</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-and-nutrition/pregnancy-diet-healthy-and-balanced-nutrition-for-pregnant-women",
+      "title": "Pregnancy Diet: Healthy & Balanced Diet (Nutrition) for Pregnant Women",
+      "html": "<a href=\"/blog/health-and-nutrition/pregnancy-diet-healthy-and-balanced-nutrition-for-pregnant-women\">Pregnancy Diet: Healthy &amp; Balanced Diet (Nutrition) for Pregnant Women</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-and-nutrition/unique-baby-boy-names-starting-with-d",
+      "title": "10 Unique Baby Boy Names Starting With D",
+      "html": "<a href=\"/blog/health-and-nutrition/unique-baby-boy-names-starting-with-d\">10 Unique Baby Boy Names Starting With D</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-and-nutrition/unique-baby-girl-names-that-start-with-b",
+      "title": "10 Unique Baby Girl Names That Start With B",
+      "html": "<a href=\"/blog/health-and-nutrition/unique-baby-girl-names-that-start-with-b\">10 Unique Baby Girl Names That Start With B</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-and-nutrition/unique-indian-baby-girl-names-starting-with-letter-a",
+      "title": "10 Unique Indian Girl Names With Letter A",
+      "html": "<a href=\"/blog/health-and-nutrition/unique-indian-baby-girl-names-starting-with-letter-a\">10 Unique Indian Girl Names With Letter A</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/indian-baby-boy-names-starting-with-r",
+      "title": "10 Unique Indian Baby Boy Names Starting With R",
+      "html": "<a href=\"/blog/general/indian-baby-boy-names-starting-with-r\">10 Unique Indian Baby Boy Names Starting With R</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-and-nutrition/difference-between-true-labour-pain-and-false-labour-pain",
+      "title": "Difference Between True Labour Pain And False Labour Pain: Real Contractions Vs Braxton Hicks",
+      "html": "<a href=\"/blog/health-and-nutrition/difference-between-true-labour-pain-and-false-labour-pain\">Difference Between True Labour Pain And False Labour Pain: Real Contractions Vs Braxton Hicks</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-and-nutrition/unique-baby-boy-names-starting-with-e",
+      "title": "10 Unique Baby Boy Names Starting With E",
+      "html": "<a href=\"/blog/health-and-nutrition/unique-baby-boy-names-starting-with-e\">10 Unique Baby Boy Names Starting With E</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-and-nutrition/top-unique-indian-baby-boy-names-starting-with-letter-a",
+      "title": "10 Unique Indian Boy Names Starting With A",
+      "html": "<a href=\"/blog/health-and-nutrition/top-unique-indian-baby-boy-names-starting-with-letter-a\">10 Unique Indian Boy Names Starting With A</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-and-nutrition/healthy-breakfast-ideas-for-pregnancy",
+      "title": "Healthy Breakfast For Pregnant Women - What To Include And Avoid?",
+      "html": "<a href=\"/blog/health-and-nutrition/healthy-breakfast-ideas-for-pregnancy\">Healthy Breakfast For Pregnant Women - What To Include And Avoid?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/stem-cells/reducing-the-cost-of-post-transplant-care-with-cord-blood",
+      "title": "Reducing the Cost of Post Transplant Care with Cord Blood",
+      "html": "<a href=\"/blog/stem-cells/reducing-the-cost-of-post-transplant-care-with-cord-blood\">Reducing the Cost of Post Transplant Care with Cord Blood</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/stem-cells/community-cord-blood-banking-emerges-as-life-saver",
+      "title": "Community Cord Blood Banking emerges as a life saver",
+      "html": "<a href=\"/blog/stem-cells/community-cord-blood-banking-emerges-as-life-saver\">Community Cord Blood Banking emerges as a life saver</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/valentines-day-gifts-for-pregnant-wife",
+      "title": "10 Trendy Valentine's Day Gift Ideas For Your Pregnant Wife!",
+      "html": "<a href=\"/blog/general/valentines-day-gifts-for-pregnant-wife\">10 Trendy Valentine's Day Gift Ideas For Your Pregnant Wife!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/everything-you-need-to-know-about-hepatitis-a",
+      "title": "Everything You Need To Know About Hepatitis A",
+      "html": "<a href=\"/blog/general/everything-you-need-to-know-about-hepatitis-a\">Everything You Need To Know About Hepatitis A</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/hepatitis-c-causes-symptoms-risk-factors-diagnosis-treatment-prevention",
+      "title": "Hepatitis C: The Silent Killer That You Need To Know About!",
+      "html": "<a href=\"/blog/general/hepatitis-c-causes-symptoms-risk-factors-diagnosis-treatment-prevention\">Hepatitis C: The Silent Killer That You Need To Know About!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/hepatitis-b-symptoms-causes-diagnosis-treatment-prevention",
+      "title": "Exploring Hepatitis B Symptoms: Navigating The Liver's Warning Signs",
+      "html": "<a href=\"/blog/general/hepatitis-b-symptoms-causes-diagnosis-treatment-prevention\">Exploring Hepatitis B Symptoms: Navigating The Liver's Warning Signs</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-clinic/umbilical-cord-derived-mesenchymal-stem-cells-a-better-alternative-to-bone-marrow-stem-cells",
+      "title": "Umbilical Cord-Derived Mesenchymal Stem Cells - A Better Alternative To Bone Marrow Stem Cells?",
+      "html": "<a href=\"/blog/health-clinic/umbilical-cord-derived-mesenchymal-stem-cells-a-better-alternative-to-bone-marrow-stem-cells\">Umbilical Cord-Derived Mesenchymal Stem Cells - A Better Alternative To Bone Marrow Stem Cells?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/Why_Consider_Cord_Blood_Banking_At_The_Time_Of_Birth",
+      "title": "Why Consider Cord Blood Banking At The Time Of Birth?",
+      "html": "<a href=\"/blog/health-bank/Why_Consider_Cord_Blood_Banking_At_The_Time_Of_Birth\">Why Consider Cord Blood Banking At The Time Of Birth?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-and-nutrition/sflt-1-an-effective-preeclampsia-prediction-tool-during-pregnancy",
+      "title": "sFLt-1 - An Effective Preeclampsia Prediction Tool During Pregnancy",
+      "html": "<a href=\"/blog/health-and-nutrition/sflt-1-an-effective-preeclampsia-prediction-tool-during-pregnancy\">sFLt-1 - An Effective Preeclampsia Prediction Tool During Pregnancy</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/baby-girl-names-starting-with-z",
+      "title": "Top 10 Baby Girl Names Starting With Z",
+      "html": "<a href=\"/blog/general/baby-girl-names-starting-with-z\">Top 10 Baby Girl Names Starting With Z</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/baby-girl-names-starting-with-y",
+      "title": "Unique Baby Girl Names Starting With Y",
+      "html": "<a href=\"/blog/general/baby-girl-names-starting-with-y\">Unique Baby Girl Names Starting With Y</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/baby-boy-names-starting-with-y",
+      "title": "Unique Baby Boy Names Starting With Y",
+      "html": "<a href=\"/blog/general/baby-boy-names-starting-with-y\">Unique Baby Boy Names Starting With Y</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/baby-girl-names-starting-with-x",
+      "title": "Unique Indian Baby Girl Name Starting With X",
+      "html": "<a href=\"/blog/general/baby-girl-names-starting-with-x\">Unique Indian Baby Girl Name Starting With X</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/baby-boy-names-starting-with-x",
+      "title": "Unique Indian Baby Boy Name Starting With X",
+      "html": "<a href=\"/blog/general/baby-boy-names-starting-with-x\">Unique Indian Baby Boy Name Starting With X</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/baby-boy-names-starting-with-v",
+      "title": "10 Trending Baby Boy Names With V",
+      "html": "<a href=\"/blog/general/baby-boy-names-starting-with-v\">10 Trending Baby Boy Names With V</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/baby-girl-names-starting-with-u",
+      "title": "Top 10 Baby Girl Names Starting With U",
+      "html": "<a href=\"/blog/general/baby-girl-names-starting-with-u\">Top 10 Baby Girl Names Starting With U</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/baby-boy-names-starting-with-u",
+      "title": "Top 10 Baby Boy Names Starting With U",
+      "html": "<a href=\"/blog/general/baby-boy-names-starting-with-u\">Top 10 Baby Boy Names Starting With U</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/baby-girl-names-starting-with-t",
+      "title": "Top 10 Girl Names Starting With T",
+      "html": "<a href=\"/blog/general/baby-girl-names-starting-with-t\">Top 10 Girl Names Starting With T</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/baby-boy-names-starting-with-t",
+      "title": "10 Unique Boy Names Starting With T",
+      "html": "<a href=\"/blog/general/baby-boy-names-starting-with-t\">10 Unique Boy Names Starting With T</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/baby-girl-names-starting-with-s",
+      "title": "Top 10 Baby Girl Names Starting With S",
+      "html": "<a href=\"/blog/general/baby-girl-names-starting-with-s\">Top 10 Baby Girl Names Starting With S</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/indian-boy-names-starting-with-s",
+      "title": "10 Unique Indian Boy Names Starting With S",
+      "html": "<a href=\"/blog/general/indian-boy-names-starting-with-s\">10 Unique Indian Boy Names Starting With S</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/baby-girl-names-starting-with-q",
+      "title": "Top 7 Baby Girl Names Starting With Q",
+      "html": "<a href=\"/blog/general/baby-girl-names-starting-with-q\">Top 7 Baby Girl Names Starting With Q</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/baby-girl-names-starting-with-p",
+      "title": "Unique Baby Girl Names Starting With P",
+      "html": "<a href=\"/blog/general/baby-girl-names-starting-with-p\">Unique Baby Girl Names Starting With P</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/baby-boy-names-starting-with-p",
+      "title": "Unique Baby Boy Names Starting With P",
+      "html": "<a href=\"/blog/general/baby-boy-names-starting-with-p\">Unique Baby Boy Names Starting With P</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/baby-girl-names-starting-with-n",
+      "title": "10 Unique Baby Girl Names Starting With N",
+      "html": "<a href=\"/blog/general/baby-girl-names-starting-with-n\">10 Unique Baby Girl Names Starting With N</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/baby-girl-names-starting-with-l",
+      "title": "Beautiful Baby Girl Names Starting With L",
+      "html": "<a href=\"/blog/general/baby-girl-names-starting-with-l\">Beautiful Baby Girl Names Starting With L</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/baby-girl-names-starting-with-k",
+      "title": "Top 10 Baby Girl Names Starting With K",
+      "html": "<a href=\"/blog/general/baby-girl-names-starting-with-k\">Top 10 Baby Girl Names Starting With K</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/indian-baby-girl-names-starting-with-i",
+      "title": "10 Unique Indian Baby Girl Names Starting With I",
+      "html": "<a href=\"/blog/general/indian-baby-girl-names-starting-with-i\">10 Unique Indian Baby Girl Names Starting With I</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/baby-girl-names-starting-with-h",
+      "title": "10 Unique Baby Girl Names Starting With H",
+      "html": "<a href=\"/blog/general/baby-girl-names-starting-with-h\">10 Unique Baby Girl Names Starting With H</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/baby-girl-names-starting-with-g",
+      "title": "Top 10 Baby Girl Names Starting With G",
+      "html": "<a href=\"/blog/general/baby-girl-names-starting-with-g\">Top 10 Baby Girl Names Starting With G</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/unique-baby-boy-names-starting-with-g",
+      "title": "10 Unique Baby Boy Names Starting With G",
+      "html": "<a href=\"/blog/general/unique-baby-boy-names-starting-with-g\">10 Unique Baby Boy Names Starting With G </a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-and-nutrition/unique-baby-boy-names-starting-with-f",
+      "title": "10 Unique Baby Boy Names Starting With F",
+      "html": "<a href=\"/blog/health-and-nutrition/unique-baby-boy-names-starting-with-f\">10 Unique Baby Boy Names Starting With F</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-and-nutrition/unique-baby-girl-names-starting-with-d",
+      "title": "10 Unique Baby Girl Names Starting With D",
+      "html": "<a href=\"/blog/health-and-nutrition/unique-baby-girl-names-starting-with-d\">10 Unique Baby Girl Names Starting With D</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-and-nutrition/unique-baby-girl-names-starting-with-c",
+      "title": "10 Unique Baby Girl Names Starting With C",
+      "html": "<a href=\"/blog/health-and-nutrition/unique-baby-girl-names-starting-with-c\">10 Unique Baby Girl Names Starting With C</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-and-nutrition/importance-of-drinking-water-during-pregnancy",
+      "title": "Importance Of Drinking Water During Pregnancy",
+      "html": "<a href=\"/blog/health-and-nutrition/importance-of-drinking-water-during-pregnancy\">Importance Of Drinking Water During Pregnancy</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/stem-cell-banking-umbilical-cord-blood-vs-placenta",
+      "title": "Stem Cell Banking: Umbilical Cord Blood vs. Placenta",
+      "html": "<a href=\"/blog/health-bank/stem-cell-banking-umbilical-cord-blood-vs-placenta\">Stem Cell Banking: Umbilical Cord Blood vs. Placenta</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-and-nutrition/nutritional-alternatives-to-satisfy-pregnancy-cravings",
+      "title": "A Guide To Tasty Yet Nutritional Alternatives To Pregnancy Cravings",
+      "html": "<a href=\"/blog/health-and-nutrition/nutritional-alternatives-to-satisfy-pregnancy-cravings\">A Guide To Tasty Yet Nutritional Alternatives To Pregnancy Cravings</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/yoga-poses-for-pcos-know-steps-benefits-and-tips",
+      "title": "Yoga Poses For PCOS: Steps, Benefits And Tips!",
+      "html": "<a href=\"/blog/general/yoga-poses-for-pcos-know-steps-benefits-and-tips\">Yoga Poses For PCOS: Steps, Benefits And Tips!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/high-risk-pregnancy-causes-symptoms-risks-diagnosis-management-prevention",
+      "title": "High-Risk Pregnancy: Causes, Symptoms, Risks, Diagnosis, Management & Prevention!",
+      "html": "<a href=\"/blog/general/high-risk-pregnancy-causes-symptoms-risks-diagnosis-management-prevention\">High-Risk Pregnancy: Causes, Symptoms, Risks, Diagnosis, Management &amp; Prevention!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/study-on-childhood-cancers-in-india",
+      "title": "A Deep Dive Into The State Of Childhood Cancers In India",
+      "html": "<a href=\"/blog/health-bank/study-on-childhood-cancers-in-india\">A Deep Dive Into The State Of Childhood Cancers In India</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/what-is-blighted-ovum-treatment-and-cure",
+      "title": "What Is Blighted Ovum? - Treatment And Cure",
+      "html": "<a href=\"/blog/health-bank/what-is-blighted-ovum-treatment-and-cure\">What Is Blighted Ovum? - Treatment And Cure</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/easy-to-use-pregnancy-due-date-calculator",
+      "title": "Easy-To-Use Pregnancy Due Date Calculator",
+      "html": "<a href=\"/blog/health-bank/easy-to-use-pregnancy-due-date-calculator\">Easy-To-Use Pregnancy Due Date Calculator</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/yoga-poses-that-help-boost-fertility",
+      "title": "Fertility Yoga: 8 Easy Yet Powerful Poses That Help Boost Fertility",
+      "html": "<a href=\"/blog/general/yoga-poses-that-help-boost-fertility\">Fertility Yoga: 8 Easy Yet Powerful Poses That Help Boost Fertility</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/happy-fathers-day-wishes-quotes-messages-images-whatsapp-status",
+      "title": "Heartfelt Father's Day Wishes, Quotes, Messages & Images!",
+      "html": "<a href=\"/blog/general/happy-fathers-day-wishes-quotes-messages-images-whatsapp-status\">Heartfelt Father's Day Wishes, Quotes, Messages &amp; Images!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/fathers-day-gift-ideas-for-dad",
+      "title": "10 Amazing Father’s Day Gift Ideas For Dad!",
+      "html": "<a href=\"/blog/general/fathers-day-gift-ideas-for-dad\">10 Amazing Father’s Day Gift Ideas For Dad!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/thyroid-during-pregnancy-causes-risks-symptoms-and-screening",
+      "title": "Thyroid During Pregnancy: Causes, Symptoms, Risks And Diagnosis!",
+      "html": "<a href=\"/blog/general/thyroid-during-pregnancy-causes-risks-symptoms-and-screening\">Thyroid During Pregnancy: Causes, Symptoms, Risks And Diagnosis!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/high-blood-pressure-in-pregnancy-causes-symptoms-prevention",
+      "title": "Understanding High Blood Pressure in Pregnancy: Causes, Symptoms, and Prevention Strategies",
+      "html": "<a href=\"/blog/general/high-blood-pressure-in-pregnancy-causes-symptoms-prevention\">Understanding High Blood Pressure in Pregnancy: Causes, Symptoms, and Prevention Strategies</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/how-to-control-thyroid-during-pregnancy",
+      "title": "How To Control Thyroid During Pregnancy?",
+      "html": "<a href=\"/blog/general/how-to-control-thyroid-during-pregnancy\">How To Control Thyroid During Pregnancy?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/top-5-unique-baby-shower-gifts-for-sisters",
+      "title": "Top 5 Unique Baby Shower Gifts For Your Cousin Sister!",
+      "html": "<a href=\"/blog/general/top-5-unique-baby-shower-gifts-for-sisters\">Top 5 Unique Baby Shower Gifts For Your Cousin Sister!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/in-vitro-fertilization-ivf-process-cost-advantages-and-disadvantages",
+      "title": "The Role Of In Vitro Fertilization (IVF) In Overcoming Infertility!",
+      "html": "<a href=\"/blog/general/in-vitro-fertilization-ivf-process-cost-advantages-and-disadvantages\">The Role Of In Vitro Fertilization (IVF) In Overcoming Infertility!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-and-nutrition/rubella-during-pregnancy-symptoms-effects-and-treatment",
+      "title": "Rubella During Pregnancy: Everything You Need to Know",
+      "html": "<a href=\"/blog/health-and-nutrition/rubella-during-pregnancy-symptoms-effects-and-treatment\">Rubella During Pregnancy: Everything You Need to Know</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-and-nutrition/pre-pregnancy-vaccination-vaccines-for-women-before-pregnancy",
+      "title": "Vaccinations Before Pregnancy: A Complete Guide",
+      "html": "<a href=\"/blog/health-and-nutrition/pre-pregnancy-vaccination-vaccines-for-women-before-pregnancy\">Vaccinations Before Pregnancy: A Complete Guide</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-and-nutrition/healthy-snacks-for-pregnancy",
+      "title": "Healthy Snacks To Eat During Pregnancy",
+      "html": "<a href=\"/blog/health-and-nutrition/healthy-snacks-for-pregnancy\">Healthy Snacks To Eat During Pregnancy</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-and-nutrition/latest-news-on-stem-cell-treatment-for-cerebral-palsy",
+      "title": "Latest News On Stem Cell Treatment For Cerebral Palsy",
+      "html": "<a href=\"/blog/health-and-nutrition/latest-news-on-stem-cell-treatment-for-cerebral-palsy\">Latest News On Stem Cell Treatment For Cerebral Palsy</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/lifecell-launches-advanced-self-collection-reproductive-and-sexual-healthcare-services",
+      "title": "Revolutionising Reproductive And Sexual Health: LifeCell Launches Advanced Self-Collection Healthcare Services",
+      "html": "<a href=\"/blog/general/lifecell-launches-advanced-self-collection-reproductive-and-sexual-healthcare-services\"> Revolutionising Reproductive And Sexual Health: LifeCell Launches Advanced Self-Collection Healthcare Services </a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/corona-virus-awareness",
+      "title": "Corona (Covid-19) in Pregnancy: Diagnosis, Safety Measures, Mythbusters, Cord Blood Banking And Potential of Stem Cells",
+      "html": "<a href=\"/blog/health-bank/corona-virus-awareness\">Corona (Covid-19) in Pregnancy: Diagnosis, Safety Measures, Mythbusters, Cord Blood Banking And Potential of Stem Cells</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/top-10-mothers-day-gift-ideas-for-a-mom-to-be",
+      "title": "Top 10 Mother’s Day Gift Ideas For A Mom-to-be!",
+      "html": "<a href=\"/blog/general/top-10-mothers-day-gift-ideas-for-a-mom-to-be\">Top 10 Mother’s Day Gift Ideas For A Mom-to-be!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-clinic/Finding_A_Stem_Cell_Match_With_LifeCell",
+      "title": "Finding A Stem Cell Match With LifeCell",
+      "html": "<a href=\"/blog/health-clinic/Finding_A_Stem_Cell_Match_With_LifeCell\">Finding A Stem Cell Match With LifeCell</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-clinic/Benefits_of_Early_HLA_Typing_Clinical_Relevance",
+      "title": "Benefits of Early HLA Typing: Clinical Relevance",
+      "html": "<a href=\"/blog/health-clinic/Benefits_of_Early_HLA_Typing_Clinical_Relevance\">Benefits of Early HLA Typing: Clinical Relevance</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-clinic/Significance_of_HLA_Typing_in_Stem_Cell_Transplantation",
+      "title": "Significance of HLA Typing in Stem Cell Transplantation",
+      "html": "<a href=\"/blog/health-clinic/Significance_of_HLA_Typing_in_Stem_Cell_Transplantation\">Significance of HLA Typing in Stem Cell Transplantation</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-and-nutrition/what-are-braxton-hicks-contractions-symptoms-causes-treatment",
+      "title": "What are Braxton Hicks Contractions? Symptoms, Causes, Treatment",
+      "html": "<a href=\"/blog/health-and-nutrition/what-are-braxton-hicks-contractions-symptoms-causes-treatment\">What are Braxton Hicks Contractions? Symptoms, Causes, Treatment</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-check/dha-a-key-nutrient-for-your-babies",
+      "title": "DHA - A Key Nutrient for Your Babies",
+      "html": "<a href=\"/blog/health-check/dha-a-key-nutrient-for-your-babies\">DHA - A Key Nutrient for Your Babies</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-and-nutrition/practical-advice-for-dads-to-handle-pregnancy-with-ease",
+      "title": "Practical Advice For Dads To Handle Pregnancy With Ease",
+      "html": "<a href=\"/blog/health-and-nutrition/practical-advice-for-dads-to-handle-pregnancy-with-ease\">Practical Advice For Dads To Handle Pregnancy With Ease</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/general/mothers-day-wishes-quotes-greetings-messages-for-mom-say-it-like-these-tv-stars",
+      "title": "Mother’s Day Wishes, Greetings & Quotes For Mom: Say It Like These TV Stars!",
+      "html": "<a href=\"/blog/general/mothers-day-wishes-quotes-greetings-messages-for-mom-say-it-like-these-tv-stars\">Mother’s Day Wishes, Greetings &amp; Quotes For Mom: Say It Like These TV Stars!</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/Bone_Marrow_Transplant_vs_Cord_Blood_Transplant_Which_is_Better",
+      "title": "Bone Marrow Transplant vs Cord Blood Transplant - Which is Better?",
+      "html": "<a href=\"/blog/health-bank/Bone_Marrow_Transplant_vs_Cord_Blood_Transplant_Which_is_Better\">Bone Marrow Transplant vs Cord Blood Transplant - Which is Better?</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/How_Is_Your_Baby%E2%80%99s_Cord_Blood_Collected_Processed_And_Preserved",
+      "title": "How Is Your Baby’s Cord Blood Collected, Processed & Preserved",
+      "html": "<a href=\"/blog/health-bank/How_Is_Your_Baby%E2%80%99s_Cord_Blood_Collected_Processed_And_Preserved\">How Is Your Baby’s Cord Blood Collected, Processed &amp; Preserved</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/Cord-Blood_Processing_How_It_Is_Done",
+      "title": "Cord Blood Processing - How It Is Done",
+      "html": "<a href=\"/blog/health-bank/Cord-Blood_Processing_How_It_Is_Done\">Cord Blood Processing - How It Is Done</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/Developmental_Disorders_In_Children",
+      "title": "Developmental Disorders In Children",
+      "html": "<a href=\"/blog/health-bank/Developmental_Disorders_In_Children\">Developmental Disorders In Children</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/10_Reasons_To_Bank_Your_Baby%E2%80%99s_Stem_Cells_With_LifeCell",
+      "title": "10 Reasons To Bank Your Baby’s Stem Cells With LifeCell",
+      "html": "<a href=\"/blog/health-bank/10_Reasons_To_Bank_Your_Baby%E2%80%99s_Stem_Cells_With_LifeCell\">10 Reasons To Bank Your Baby’s Stem Cells With LifeCell</a>"
+    },
+    {
+      "url": "https://www.lifecell.in/blog/health-bank/umbilical-cord-blood-stem-cell-transplant-benefits-cost-success-rate",
+      "title": "Umbilical Cord Blood Stem Cell Transplant: Benefits, Cost, Success Rate",
+      "html": "<a href=\"/blog/health-bank/umbilical-cord-blood-stem-cell-transplant-benefits-cost-success-rate\">Umbilical Cord Blood Stem Cell Transplant: Benefits, Cost, Success Rate </a>"
+    }
+  ]
+}
