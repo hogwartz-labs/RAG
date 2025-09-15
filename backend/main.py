@@ -1,130 +1,68 @@
-#!/usr/bin/env python3
-"""
-MongoDB Vector Search Service with Flask API
-"""
+from fastapi import FastAPI, HTTPException
+from pydantic import BaseModel
+from typing import List
+from rag.agent import AdvancedRAGRetriever
+from rag.retriever import QueryRequest
+import logging
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import StreamingResponse
 
-import os
-from typing import List, Dict
-from flask import Flask, request, jsonify
-from pymongo import MongoClient
-from dotenv import load_dotenv
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+import asyncio
+app = FastAPI()
 
-load_dotenv()
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # ⚡ For development use "*" or specify allowed origins
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
-app = Flask(__name__)
+@app.get("/")
+def read_root():
+    return {"Hello": "World"}
 
-# Global connections
-mongo_client = MongoClient(os.getenv('MONGO_URL', 'mongodb://localhost:27017'))
-db = mongo_client[os.getenv('DATABASE_NAME', 'rag_system')]
-
-def get_embedding(text: str) -> List[float]:
-    """Get embedding using the llm module"""
+@app.post("/query")
+def query_endpoint(request: QueryRequest):
     try:
-        from llm import get_embedding as llm_get_embedding
-        return llm_get_embedding(text)
-    except Exception:
-        return []
-
-def vector_search_chunks(query_vector: List[float], limit: int = 10) -> List[Dict]:
-    """Perform MongoDB vector search and join with documents"""
-    try:
-        pipeline = [
-            {
-                "$vectorSearch": {
-                    "index": "vector_index",
-                    "path": "embedding",
-                    "queryVector": query_vector,
-                    "numCandidates": limit * 10,
-                    "limit": limit
-                }
-            },
-            {
-                "$addFields": {
-                    "score": {"$meta": "vectorSearchScore"}
-                }
-            },
-            {
-                "$lookup": {
-                    "from": "documents",
-                    "localField": "document_id",
-                    "foreignField": "document_id",
-                    "as": "document"
-                }
-            },
-            {
-                "$unwind": {
-                    "path": "$document",
-                    "preserveNullAndEmptyArrays": True
-                }
-            },
-            {
-                "$project": {
-                    "chunk_id": 1,
-                    "document_id": 1,
-                    "content": 1,
-                    "enriched_content": 1,
-                    "metadata": 1,
-                    "score": 1,
-                    "document": {
-                        "document_id": "$document.document_id",
-                        "title": "$document.title",
-                        "content": "$document.content",
-                        "metadata": "$document.metadata"
-                    }
-                }
-            }
-        ]
-        
-        return list(db.chunks.aggregate(pipeline))
-        
-    except Exception:
-        return []
-
-
-
-@app.route('/search', methods=['POST'])
-def search():
-    """
-    Search endpoint
-    POST /search
-    Body: {"query": "search text", "limit": 10}
-    """
-    try:
-        data = request.get_json()
-        query = data.get('query', '').strip()
-        limit = min(int(data.get('limit', 10)), 50)
-        
-        if not query:
-            return jsonify({'error': 'Query required'}), 400
-        
-        # Get embedding
-        query_vector = get_embedding(query)
-        if not query_vector:
-            return jsonify({'error': 'Failed to generate embedding'}), 500
-        
-        # Try vector search first, fallback to cosine similarity
-        results = vector_search_chunks(query_vector, limit)
-        
-        # Format response
-        formatted_results = []
-        for chunk in results:
-            formatted_results.append({
-                'chunk_id': chunk.get('chunk_id', ''),
-                'document_id': chunk.get('document_id', ''),
-                'score': chunk.get('score', 0.0),
-                'content': chunk.get('content', ''),
-                'enriched_content': chunk.get('enriched_content', ''),
-                'metadata': chunk.get('metadata', {})
-            })
-        
-        return jsonify({
-            'query': query,
-            'results': formatted_results,
-            'count': len(formatted_results)
-        })
-        
+        print(f"Received query: {request.query}")
+        retriever = AdvancedRAGRetriever()
+        results = retriever.retrieve_and_answer(request.query)
+        return {"results": results}
+    except HTTPException as e:
+        logger.error(f"HTTP error occurred: {e.detail}")
+        raise e
     except Exception as e:
-        return jsonify({'error': str(e)}), 500
+        logger.error(f"Unexpected error occurred: {str(e)}")
+        raise HTTPException(status_code=500, detail="Error processing query")
+    
+from fastapi.responses import StreamingResponse
+import json
+import asyncio
+
+@app.post("/query/stream")
+async def query_stream_endpoint(request: QueryRequest):
+    try:
+        retriever = AdvancedRAGRetriever()
+        result_generator = retriever.retrieve_and_answer(request.query, stream=True)
+
+        async def event_generator():
+            for chunk in result_generator:
+                text = getattr(chunk, "content", str(chunk))
+                yield f"data: {json.dumps({'content': text})}\n\n"
+                await asyncio.sleep(0)
+
+            # End of stream signal
+            yield "data: [DONE]\n\n"
+
+        return StreamingResponse(event_generator(), media_type="text/event-stream")
+
+    except Exception as e:
+        logger.error(f"Streaming error: {str(e)}")
+        raise HTTPException(status_code=500, detail="Error processing streaming query")
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=int(os.getenv('FLASK_PORT', '5000')))
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)
