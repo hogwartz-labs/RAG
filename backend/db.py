@@ -5,7 +5,7 @@ load_dotenv()
 import os
 from pymongo import MongoClient
 from pymongo.errors import DuplicateKeyError
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Union
 from fastapi import  HTTPException
 from bson import ObjectId
 
@@ -200,3 +200,13 @@ def retrieve_relevant_chunks(query: str, top_k: int = 5) -> List[Dict[str, Any]]
     except Exception as e:
         logger.error(f"Error retrieving relevant chunks: {str(e)}")
         raise HTTPException(status_code=500, detail=f"Error retrieving relevant chunks: {str(e)}")
+    
+def get_documents_by_ids(document_ids: Union[List[str], set[str]]):
+
+    try:
+        docs = list(db.documents.find({"document_id": {"$in": list(document_ids)}}))
+        logger.info(docs)
+    except Exception as e:
+        return []
+
+    return docs
