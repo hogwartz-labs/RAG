@@ -143,25 +143,25 @@ const ChatInterface = () => {
                     remarkPlugins={[remarkGfm]}
                     components={{
                       h1: ({ children }) => (
-                        <h1 className="text-3xl font-bold text-foreground mb-6 leading-tight border-b border-border/20 pb-3">{children}</h1>
+                        <h1 className="text-2xl font-bold text-foreground mb-4 leading-tight border-b border-border/20 pb-3">{children}</h1>
                       ),
                       h2: ({ children }) => (
-                        <h2 className="text-2xl font-semibold text-foreground mb-4 mt-8 leading-tight border-b border-border/10 pb-2">{children}</h2>
+                        <h2 className="text-xl font-semibold text-foreground mb-3 mt-6 leading-tight border-b border-border/10 pb-2">{children}</h2>
                       ),
                       h3: ({ children }) => (
-                        <h3 className="text-xl font-semibold text-foreground mb-3 mt-6 leading-tight">{children}</h3>
+                        <h3 className="text-lg font-semibold text-foreground mb-2 mt-4 leading-tight">{children}</h3>
                       ),
                       h4: ({ children }) => (
-                        <h4 className="text-lg font-semibold text-foreground mb-2 mt-4">{children}</h4>
+                        <h4 className="text-base font-semibold text-foreground mb-1 mt-3">{children}</h4>
                       ),
                       p: ({ children }) => (
-                        <p className="text-foreground mb-4 leading-relaxed text-base">{children}</p>
+                        <p className="text-foreground mb-2 leading-relaxed text-base">{children}</p>
                       ),
                       ul: ({ children }) => (
-                        <ul className="list-disc list-outside text-foreground mb-6 space-y-2 pl-6 marker:text-primary">{children}</ul>
+                        <ul className="list-disc list-outside text-foreground mb-4 space-y-2 pl-6 marker:text-primary">{children}</ul>
                       ),
                       ol: ({ children }) => (
-                        <ol className="list-decimal list-outside text-foreground mb-6 space-y-2 pl-6 marker:text-primary marker:font-semibold">{children}</ol>
+                        <ol className="list-decimal list-outside text-foreground mb-4 space-y-2 pl-6 marker:text-primary marker:font-semibold">{children}</ol>
                       ),
                       li: ({ children }) => (
                         <li className="text-foreground leading-relaxed pl-2">{children}</li>
@@ -221,7 +221,7 @@ const ChatInterface = () => {
                         </td>
                       ),
                       hr: () => (
-                        <hr className="my-8 border-border/30" />
+                        <hr className="my-6 border-border/30" />
                       ),
                     }}
                   >
