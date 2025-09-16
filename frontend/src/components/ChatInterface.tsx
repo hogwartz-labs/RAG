@@ -5,68 +5,66 @@ import { Card } from '@/components/ui/card';
 import { Send, Loader2 } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 
 const ChatInterface = () => {
   const [query, setQuery] = useState('');
-  const [response, setResponse] = useState<string | null>(null);
-  const [streamingResponse, setStreamingResponse] = useState<string>('');
+  const [currentResponse, setCurrentResponse] = useState<string>('');
   const [isLoading, setIsLoading] = useState(false);
   const [isStreaming, setIsStreaming] = useState(false);
   const { toast } = useToast();
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
+  const handleSubmit = async () => {
     if (!query.trim()) return;
 
     setIsLoading(true);
-    setIsStreaming(true);
-    setResponse(null);
-    setStreamingResponse('');
+    setIsStreaming(false);
+    setCurrentResponse(''); // Clear previous response
 
     try {
       const res = await fetch("http://localhost:8000/query/stream", {
-  method: "POST",
-  headers: { "Content-Type": "application/json" },
-  body: JSON.stringify({ query }),
-});
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ query }),
+      });
 
-const reader = res.body?.getReader();
-if (!reader) throw new Error("No reader available");
+      const reader = res.body?.getReader();
+      if (!reader) throw new Error("No reader available");
 
-setIsLoading(false);
-setIsStreaming(true);
+      setIsLoading(false);
+      setIsStreaming(true);
 
-const decoder = new TextDecoder();
+      const decoder = new TextDecoder();
+      let accumulatedResponse = '';
 
-while (true) {
-  const { done, value } = await reader.read();
-  if (done) break;
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
 
-  const chunk = decoder.decode(value, { stream: true }).trim();
-  const lines = chunk.split("\n");
+        const chunk = decoder.decode(value, { stream: true }).trim();
+        const lines = chunk.split("\n");
 
-  for (const line of lines) {
-    if (line.startsWith("data: ")) {
-      const data = line.replace("data: ", "");
+        for (const line of lines) {
+          if (line.startsWith("data: ")) {
+            const data = line.replace("data: ", "");
 
-      if (data === "[DONE]") {
-        setIsStreaming(false);
-        setResponse(streamingResponse);
-        
-        return;
-      }
+            if (data === "[DONE]") {
+              setIsStreaming(false);
+              return;
+            }
 
-      try {
-        const parsed = JSON.parse(data);
-        if (parsed.content) {
-          setStreamingResponse((prev) => prev + parsed.content);
+            try {
+              const parsed = JSON.parse(data);
+              if (parsed.content) {
+                accumulatedResponse += parsed.content;
+                setCurrentResponse(accumulatedResponse);
+              }
+            } catch {
+              console.warn("Non-JSON SSE message:", data);
+            }
+          }
         }
-      } catch {
-        console.warn("Non-JSON SSE message:", data);
       }
-    }
-  }
-}
 
     } catch (error) {
       console.error('Error querying API:', error);
@@ -80,6 +78,13 @@ while (true) {
     }
   };
 
+  const handleKeyPress = (e) => {
+    if (e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault();
+      handleSubmit();
+    }
+  };
+
   return (
     <div className="min-h-screen bg-background flex items-center justify-center p-4 relative">
       {/* Background decoration */}
@@ -89,12 +94,12 @@ while (true) {
       <div className="w-full max-w-4xl mx-auto relative z-10">
         {/* Header */}
         <div className="text-center mb-8 animate-in fade-in-50 slide-in-from-bottom-4 duration-1000">
-          <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-primary rounded-2xl mb-4 shadow-elegant">
+          <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl mb-4 shadow-lg">
             <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
             </svg>
           </div>
-          <h1 className="text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-3">
+          <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-3">
             AI Knowledge Assistant
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -103,22 +108,23 @@ while (true) {
         </div>
 
         {/* Chat Container */}
-        <Card className="bg-card/50 backdrop-blur-xl border border-border/20 shadow-elegant hover:shadow-glow transition-all duration-300 animate-in fade-in-30 slide-in-from-bottom-6 duration-1000 delay-200">
+        <Card className="bg-card/50 backdrop-blur-xl border border-border/20 shadow-xl hover:shadow-2xl transition-all duration-300 animate-in fade-in-30 slide-in-from-bottom-6 duration-1000 delay-200">
           <div className="p-8">
-            {/* Input Form */}
-            <form onSubmit={handleSubmit} className="mb-6">
+            {/* Input Area */}
+            <div className="mb-6">
               <div className="flex gap-3">
                 <Input
                   value={query}
                   onChange={(e) => setQuery(e.target.value)}
+                  onKeyPress={handleKeyPress}
                   placeholder="Ask me anything about your domain..."
                   disabled={isLoading || isStreaming}
                   className="flex-1 bg-background/50 border-border/30 focus:border-primary transition-all duration-300 text-base py-3"
                 />
                 <Button 
-                  type="submit" 
+                  onClick={handleSubmit}
                   disabled={isLoading || isStreaming || !query.trim()}
-                  className="bg-gradient-primary hover:bg-gradient-primary/90 text-white px-8 py-3 shadow-elegant hover:shadow-glow transition-all duration-300 hover:scale-105"
+                  className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-3 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
                 >
                   {(isLoading || isStreaming) ? (
                     <Loader2 className="h-5 w-5 animate-spin" />
@@ -127,64 +133,106 @@ while (true) {
                   )}
                 </Button>
               </div>
-            </form>
+            </div>
 
             {/* Response Display */}
-            {(response || streamingResponse) && (
+            {currentResponse && (
               <div className="bg-background/30 backdrop-blur-sm border border-border/20 rounded-xl p-8 animate-in fade-in-50 slide-in-from-bottom-4 duration-500">
-                {/* Show streaming response while streaming */}
-                {isStreaming && streamingResponse && (
-                  <div className="text-muted-foreground leading-relaxed whitespace-pre-wrap font-mono text-sm">
-                    {streamingResponse}
-                    <span className="animate-pulse">|</span>
-                  </div>
-                )}
-                
-                {/* Show formatted markdown response when streaming is complete */}
-                {!isStreaming && response && (
-                  <div className="prose prose-slate max-w-none dark:prose-invert prose-headings:text-foreground prose-p:text-muted-foreground prose-strong:text-foreground prose-a:text-primary">
-                    <ReactMarkdown
-                      components={{
-                        h1: ({ children }) => (
-                          <h1 className="text-3xl font-bold text-foreground mb-6 leading-tight">{children}</h1>
-                        ),
-                        h2: ({ children }) => (
-                          <h2 className="text-2xl font-semibold text-foreground mb-4 mt-8 leading-tight">{children}</h2>
-                        ),
-                        h3: ({ children }) => (
-                          <h3 className="text-xl font-semibold text-foreground mb-3 mt-6 leading-tight">{children}</h3>
-                        ),
-                        p: ({ children }) => (
-                          <p className="text-muted-foreground mb-4 leading-relaxed text-base">{children}</p>
-                        ),
-                        ul: ({ children }) => (
-                          <ul className="list-disc list-inside text-muted-foreground mb-6 space-y-2 pl-4">{children}</ul>
-                        ),
-                        ol: ({ children }) => (
-                          <ol className="list-decimal list-inside text-muted-foreground mb-6 space-y-2 pl-4">{children}</ol>
-                        ),
-                        li: ({ children }) => (
-                          <li className="text-muted-foreground leading-relaxed">{children}</li>
-                        ),
-                        strong: ({ children }) => (
-                          <strong className="font-semibold text-foreground">{children}</strong>
-                        ),
-                        a: ({ href, children }) => (
-                          <a 
-                            href={href} 
-                            className="text-primary hover:text-primary/80 underline underline-offset-2 transition-colors font-medium"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            {children}
-                          </a>
-                        ),
-                      }}
-                    >
-                      {response}
-                    </ReactMarkdown>
-                  </div>
-                )}
+                <div className="prose prose-slate max-w-none dark:prose-invert">
+                  <ReactMarkdown
+                    remarkPlugins={[remarkGfm]}
+                    components={{
+                      h1: ({ children }) => (
+                        <h1 className="text-3xl font-bold text-foreground mb-6 leading-tight border-b border-border/20 pb-3">{children}</h1>
+                      ),
+                      h2: ({ children }) => (
+                        <h2 className="text-2xl font-semibold text-foreground mb-4 mt-8 leading-tight border-b border-border/10 pb-2">{children}</h2>
+                      ),
+                      h3: ({ children }) => (
+                        <h3 className="text-xl font-semibold text-foreground mb-3 mt-6 leading-tight">{children}</h3>
+                      ),
+                      h4: ({ children }) => (
+                        <h4 className="text-lg font-semibold text-foreground mb-2 mt-4">{children}</h4>
+                      ),
+                      p: ({ children }) => (
+                        <p className="text-foreground mb-4 leading-relaxed text-base">{children}</p>
+                      ),
+                      ul: ({ children }) => (
+                        <ul className="list-disc list-outside text-foreground mb-6 space-y-2 pl-6 marker:text-primary">{children}</ul>
+                      ),
+                      ol: ({ children }) => (
+                        <ol className="list-decimal list-outside text-foreground mb-6 space-y-2 pl-6 marker:text-primary marker:font-semibold">{children}</ol>
+                      ),
+                      li: ({ children }) => (
+                        <li className="text-foreground leading-relaxed pl-2">{children}</li>
+                      ),
+                      strong: ({ children }) => (
+                        <strong className="font-semibold text-foreground bg-primary/10 px-1 rounded">{children}</strong>
+                      ),
+                      em: ({ children }) => (
+                        <em className="italic text-foreground/90">{children}</em>
+                      ),
+                      code: ({ children, className }) => {
+                        const isInline = !className;
+                        return isInline ? (
+                          <code className="bg-muted text-muted-foreground px-2 py-1 rounded text-sm font-mono border">{children}</code>
+                        ) : (
+                          <code className="block bg-muted text-muted-foreground p-4 rounded-lg text-sm font-mono border overflow-x-auto whitespace-pre">{children}</code>
+                        );
+                      },
+                      pre: ({ children }) => (
+                        <pre className="bg-muted text-muted-foreground p-4 rounded-lg text-sm font-mono border overflow-x-auto mb-6 whitespace-pre-wrap">{children}</pre>
+                      ),
+                      blockquote: ({ children }) => (
+                        <blockquote className="border-l-4 border-primary bg-primary/5 pl-6 py-2 my-6 italic text-foreground/90">{children}</blockquote>
+                      ),
+                      a: ({ href, children }) => (
+                        <a 
+                          href={href} 
+                          className="text-primary hover:text-primary/80 underline underline-offset-2 transition-colors font-medium hover:bg-primary/10 px-1 rounded"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {children}
+                        </a>
+                      ),
+                      table: ({ children }) => (
+                        <div className="overflow-x-auto my-6 rounded-lg border border-border/20 shadow-sm bg-card/30">
+                          <table className="w-full border-collapse">{children}</table>
+                        </div>
+                      ),
+                      thead: ({ children }) => (
+                        <thead className="bg-muted/50">{children}</thead>
+                      ),
+                      tbody: ({ children }) => (
+                        <tbody className="bg-card/30 divide-y divide-border/10">{children}</tbody>
+                      ),
+                      tr: ({ children }) => (
+                        <tr className="hover:bg-muted/20 transition-colors">{children}</tr>
+                      ),
+                      th: ({ children }) => (
+                        <th className="px-4 py-3 text-left text-sm font-bold text-foreground border border-border/20 bg-muted/50 whitespace-nowrap">
+                          {children}
+                        </th>
+                      ),
+                      td: ({ children }) => (
+                        <td className="px-4 py-3 text-sm text-foreground border border-border/10 whitespace-normal align-top">
+                          <div className="break-words">{children}</div>
+                        </td>
+                      ),
+                      hr: () => (
+                        <hr className="my-8 border-border/30" />
+                      ),
+                    }}
+                  >
+                    {currentResponse}
+                  </ReactMarkdown>
+                  
+                  {/* Show cursor when streaming */}
+                  {isStreaming && (
+                    <span className="inline-block w-3 h-5 bg-primary animate-pulse ml-1 rounded-sm"></span>
+                  )}
+                </div>
               </div>
             )}
 
@@ -202,9 +250,9 @@ while (true) {
             )}
 
             {/* Empty State */}
-            {!response && !streamingResponse && !isLoading && !isStreaming && (
+            {!currentResponse && !isLoading && !isStreaming && (
               <div className="text-center py-16 animate-in fade-in-50 slide-in-from-bottom-4 duration-700 delay-400">
-                <div className="w-20 h-20 bg-gradient-primary rounded-3xl flex items-center justify-center mx-auto mb-6 shadow-elegant">
+                <div className="w-20 h-20 bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl flex items-center justify-center mx-auto mb-6 shadow-lg">
                   <svg 
                     className="w-10 h-10 text-white" 
                     fill="none" 
