@@ -13,8 +13,8 @@ from langchain_core.runnables import Runnable
 # os.environ["AZURE_OPENAI_ENDPOINT"] = os.getenv("AZURE_OPENAI_ENDPOINT")
 # os.environ["AZURE_OPENAI_API_KEY"] = os.getenv("AZURE_OPENAI_API_KEY")
 llm = AzureChatOpenAI(
-            azure_deployment="gpt-4o-2",
-            api_version="2024-08-01-preview",
+            azure_deployment="gpt-4.1",
+            api_version="2025-04-14",
             temperature=0,
             max_tokens=None,
             timeout=None,
