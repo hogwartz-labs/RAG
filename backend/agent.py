@@ -176,8 +176,17 @@ Generate the subqueries now:
         for i, chunk in enumerate(chunks, 1):
             content = chunk.get('content', '')
             score = chunk.get('score', 0)
-            source = chunk.get('metadata', {}).get('url', 'Unknown Source')
-            title = chunk.get('metadata', {}).get('title', 'Unknown Title')
+            source = ( # todo: fix later
+                chunk.get("metadata", {}).get("url") # chunk format
+                or chunk.get("url") # doc format
+                or "Unknown Source"
+            )
+
+            title = (
+                chunk.get("metadata", {}).get("title")
+                or chunk.get("title")
+                or "Unknown Title"
+            )
             
             context_part = f"""
 <context_chunk id="{i}" score="{score:.3f}" source_url="{source}" title="{title}">
