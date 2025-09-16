@@ -14,7 +14,7 @@ import re
 
 # Import your existing modules
 from llm import llm
-from db import retrieve_relevant_chunks
+from db import retrieve_relevant_chunks, get_documents_by_ids
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -252,8 +252,9 @@ Generate your response now:
             all_chunks = self.retrieve_for_subqueries(subqueries)
 
             unique_chunks = self.deduplicate_chunks(all_chunks)
+            unique_docs = self.get_full_docs(unique_chunks)
 
-            final_chunks = self.truncate_context(unique_chunks)
+            final_chunks = self.truncate_context(unique_docs)
             context_string = self.build_context_string(final_chunks)
 
             final_answer = self.generate_final_answer(query, subqueries, context_string, stream=stream)
@@ -293,6 +294,10 @@ Generate your response now:
                 final_answer=f"I apologize, but I encountered an error while processing your query: {str(e)}",
                 metadata={"error": str(e), "timestamp": datetime.now().isoformat()}
             )
+        
+    def get_full_docs(self, chunk_ids):
+        doc_ids = list(set([chunk.get('document_id', '') for chunk in chunk_ids]))
+        return get_documents_by_ids(doc_ids)
 
 # Convenience functions for easy usage
 def quick_answer(query: str, top_k_per_subquery: int = 5) -> str:
