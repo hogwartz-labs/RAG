@@ -1,5 +1,9 @@
 # Load environment variables
+import asyncio
+from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime, timedelta
 from dotenv import load_dotenv
+from pydantic import BaseModel
 load_dotenv()
 
 import os
@@ -8,7 +12,7 @@ from pymongo.errors import DuplicateKeyError
 from typing import List, Dict, Any, Union
 from fastapi import  HTTPException
 from bson import ObjectId
-
+import hashlib
 
 
 # Setup logging
@@ -18,6 +22,45 @@ logger = logging.getLogger(__name__)
 
 mongo_client = None
 db = None
+
+class ConversationDetails(BaseModel):
+    response: str = ""
+    token_usage: int = 0
+    estimated_cost: float = 0.0
+    query: str = ""
+    companyId : str = ""
+    timestamp: str = ""
+    total_time: float = 0.0
+
+executor = ThreadPoolExecutor()
+
+def save_conversation_details_sync(details):
+    try:
+        result = db.conversations.insert_one(details)
+        print(f"Saved conversation with id {result.inserted_id}")
+    except Exception as e:
+        logger.error(f"Error saving conversation details: {e}")
+
+async def save_conversation_details(details):
+    loop = asyncio.get_event_loop()
+    await loop.run_in_executor(executor, save_conversation_details_sync, details)
+
+
+#implement rate limit for company
+def is_rate_limited(company_id: str) -> bool:
+    """Check if a company has exceeded its rate limit"""
+    try:
+        # Example: Allow max 20 requests per minute
+        one_minute_ago = datetime.utcnow() - timedelta(minutes=1)
+        
+        request_count = db.conversations.count_documents({
+            "companyId": company_id,
+            "timestamp": {"$gte": one_minute_ago.isoformat()}
+        })
+        return request_count >= 20
+    except Exception as e:
+        logger.error(f"Error checking rate limit: {e}")
+        return False
 
 def initialize_connections():
     """Initialize MongoDB and Azure OpenAI connections from environment variables"""
@@ -32,6 +75,43 @@ def initialize_connections():
     db = mongo_client[database_name]
         
     logger.info(f"Connected to MongoDB: {database_name}")
+
+def verify_company_exists(company_id: str) -> bool:
+    """Check if a company exists in the MongoDB companies collection"""
+    try:
+        print(db)
+        company = db.companies.find_one({"companyId": company_id})
+        print(company)
+        return company is not None
+    except Exception as e:
+        logger.error(f"Error verifying company: {e}")
+        return False
+
+def create_company(company_id: str, company_name: str) -> bool:
+    """Create a new company in the MongoDB companies collection"""
+    try:
+        db.companies.insert_one({
+            "company_id": company_id,
+            "company_name": company_name
+        })
+        logger.info(f"Company created: {company_id}")
+        return True
+    except DuplicateKeyError:
+        logger.warning(f"Company {company_id} already exists")
+        return True
+
+def generate_company_id(company_name: str) -> str:
+    """Generate a unique company ID based on the company name"""
+    return hashlib.sha256(hashlib.sha256(company_name.encode()).hexdigest().encode()).hexdigest()[:32]
+
+def verify_if_company_present(company_id: str) -> bool:
+    """Check if any company exists in the companies collection"""
+    try:
+        count = db.companies.count_documents({"companyId": company_id})
+        return count > 0
+    except Exception as e:
+        logger.error(f"Error checking companies: {e}")
+        return False
 
 def create_indexes():
     """Create MongoDB indexes for better query performance"""

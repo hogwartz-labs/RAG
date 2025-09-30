@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card } from '@/components/ui/card';
@@ -6,8 +6,24 @@ import { Send, Loader2 } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-
+import {fetchWithTimeout} from '@/services/services'
 const ChatInterface = () => {
+  const [companyId, setCompanyId] = useState(null);
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const cid = params.get('companyId');
+
+    if (!cid) {
+      alert('Company ID is required in the URL as a query parameter, e.g., ?companyId=your_company_id');
+      // donot render anything in this page.. just show the error api key is not present. contanct admin
+      setCompanyId(null);
+      return;
+    } else {
+      setCompanyId(cid);
+    }
+  }, []);
+
   const [query, setQuery] = useState('');
   const [currentResponse, setCurrentResponse] = useState<string>('');
   const [isLoading, setIsLoading] = useState(false);
@@ -22,11 +38,20 @@ const ChatInterface = () => {
     setCurrentResponse(''); // Clear previous response
 
     try {
-      const res = await fetch("http://localhost:8000/query/stream", {
+      const res = await fetchWithTimeout("http://localhost:8000/query/stream", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: { "Content-Type": "application/json",
+          "x-api-key": companyId 
+        },
         body: JSON.stringify({ query }),
       });
+      if (!res.ok) {
+        toast({
+          title: 'Error',
+          description: `Failed to get response: ${res.statusText} with error code ${res.status}`,
+          variant: 'destructive',
+        });
+      }
 
       const reader = res.body?.getReader();
       if (!reader) throw new Error("No reader available");
@@ -50,6 +75,7 @@ const ChatInterface = () => {
 
             if (data === "[DONE]") {
               setIsStreaming(false);
+              setQuery('')
               return;
             }
 
@@ -67,7 +93,16 @@ const ChatInterface = () => {
       }
 
     } catch (error) {
-      console.error('Error querying API:', error);
+      if (error.name === 'AbortError') {
+        console.error('Request timed out');
+        toast({
+          title: 'Error',
+          description: 'Request timed out. Please try again.',
+          variant: 'destructive',
+        });
+      } else {
+        console.error('Error querying API:', error);
+      }
       setIsStreaming(false);
       setIsLoading(false);
       toast({
@@ -88,6 +123,7 @@ const ChatInterface = () => {
   return (
     <div className="min-h-screen bg-background flex items-center justify-center p-4 relative">
       {/* Background decoration */}
+      {companyId ? (<>
       <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-muted/20 -z-10" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/5 via-background to-background -z-10" />
       
@@ -100,10 +136,10 @@ const ChatInterface = () => {
             </svg>
           </div>
           <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-3">
-            AI Knowledge Assistant
+            Smart Doc
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Get instant, intelligent answers to your domain-specific questions with our advanced AI assistant
+            Get instant answers to your domain-specific questions
           </p>
         </div>
 
@@ -278,10 +314,14 @@ const ChatInterface = () => {
         {/* Footer */}
         <div className="text-center mt-8 animate-in fade-in-50 slide-in-from-bottom-4 duration-1000 delay-600">
           <p className="text-sm text-muted-foreground/70">
-            Powered by Advanced AI • Intelligent Knowledge Assistant
+            Built with ❤️ by &amp; <a href="https://hogwartz.vercel.app" target="_blank" rel="noopener noreferrer" className="underline hover:text-primary transition-colors">Hogwartz Labs</a>. <br />
+            © Hogwarz Labs.
           </p>
         </div>
-      </div>
+      </div></>) : (
+        <div className="text-center text-red-600 font-semibold">
+          Company ID is required in the URL as a query parameter, e.g., ?companyId=your_company_id
+        </div>)}
     </div>
   );
 };

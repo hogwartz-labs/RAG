@@ -33,6 +33,8 @@ class AdvancedRAGRetriever:
     def __init__(self, top_k_per_subquery: int = 5, max_context_length: int = 128000):
         self.top_k_per_subquery = top_k_per_subquery
         self.max_context_length = max_context_length
+        self.conversation_details = {}
+
         
     def generate_subqueries(self, original_query: str) -> List[str]:
         """Generate 3 diverse subqueries for comprehensive retrieval"""
@@ -63,8 +65,16 @@ Generate the subqueries now:
 """
         
         try:
+            import tiktoken
+            tokenizer = tiktoken.encoding_for_model("gpt-4")
+            prompt_tokens = len(tokenizer.encode(subquery_prompt))
+
             logger.info(f"Generating subqueries for: '{original_query}'")
             response = llm.invoke(subquery_prompt)
+            self.conversation_details['token_usage'] = response.response_metadata['token_usage']['total_tokens'] + prompt_tokens
+            prompt_cost = prompt_tokens / 1000 * 0.03
+            completion_cost = (response.response_metadata['token_usage']['total_tokens'] - prompt_tokens) / 1000 * 0.06
+            self.conversation_details['estimated_cost'] = prompt_cost + completion_cost
             subqueries = response.content
             subqueries = json.loads(subqueries)
             
@@ -185,6 +195,8 @@ Generate the subqueries now:
 </context_chunk>"""
             
             context_parts.append(context_part)
+
+        print(chunks[0])
         
         return "\n".join(context_parts)
     
@@ -231,20 +243,60 @@ The answer should be in markdown format in a visually formatting way like using 
 Generate your response now:
 """
         
+        import tiktoken
+
         try:
             logger.info("Generating final answer...")
+            self.conversation_details['response'] = ""
+
             if stream:
-                # assume llm.stream returns an iterator of tokens/chunks
-                return llm.stream(answer_prompt)  
+                tokenizer = tiktoken.encoding_for_model("gpt-4")
+                prompt_tokens = len(tokenizer.encode(answer_prompt))
+                total_tokens = prompt_tokens
+
+                logger.info(f"Prompt tokens: {prompt_tokens}")
+
+                def stream_generator():
+                    nonlocal total_tokens
+                    generated_text = ""
+
+                    for chunk in llm.stream(answer_prompt):
+                        yield chunk  
+                        self.conversation_details['response'] += chunk.content
+                        generated_text += chunk.content
+                        chunk_tokens = len(tokenizer.encode(chunk.content))
+                        total_tokens += chunk_tokens
+
+                    logger.info(f"Generated tokens: {total_tokens - prompt_tokens}")
+                    logger.info(f"Total tokens (prompt + generated): {total_tokens}")
+
+                    # Example cost calculation
+                    prompt_cost = prompt_tokens / 1000 * 0.03
+                    completion_cost = (total_tokens - prompt_tokens) / 1000 * 0.06
+                    total_cost = prompt_cost + completion_cost
+
+                    logger.info(f"Estimated cost: ${total_cost:.6f}")
+
+                    # Store usage stats in retriever state
+                    self.conversation_details['token_usage'] += total_tokens
+                    self.conversation_details['estimated_cost'] += total_cost
+
+                return stream_generator()
+
             else:
+                # Non-streaming logic remains unchanged
                 response = llm.invoke(answer_prompt)
                 answer = response.content
-                logger.info("Final answer generated successfully")
+                self.conversation_details['token_usage'] = response.response_metadata['token_usage']['total_tokens']
+                self.conversation_details['response'] = answer
+                logger.info("Final answer generated successfully (non-stream)")
+
                 return answer
-            
+
         except Exception as e:
             logger.error(f"Error generating final answer: {str(e)}")
             return f"I apologize, but I encountered an error while generating the final answer: {str(e)}"
+
 
     def retrieve_and_answer(self, query: str, stream=False) -> QueryResult:
         """Main method: generate subqueries, retrieve, deduplicate, and answer"""
@@ -275,16 +327,6 @@ Generate your response now:
                 final_answer=final_answer,
                 context=context_string
             )
-
-            result = QueryResult(
-                original_query=query,
-                subqueries=subqueries,
-                final_answer=final_answer,
-                context=context_string
-            )
-            
-            logger.info(f"Advanced retrieval completed in {processing_time:.2f}s")
-            return result
             
         except Exception as e:
             logger.error(f"Error in retrieve_and_answer: {str(e)}")
