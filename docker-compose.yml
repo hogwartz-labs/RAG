@@ -1,0 +1,78 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    env_file:
+      - ./backend/.env
+    volumes:
+      - .:/app
+    ports:
+      - "8000"
+    # depends_on:
+    #   - frontend
+    networks:
+      - web
+
+  # frontend:
+  #   build:
+  #     context: ./frontend
+  #     dockerfile: Dockerfile
+  #   env_file:
+  #     - .env
+  #   ports:
+  #     - "3000:3000"
+  #   networks:
+  #     - web
+
+  # vocalis:
+  #   build:
+  #     context: ./Vocalis/backend
+  #     dockerfile: Dockerfile
+  #   env_file:
+  #     - ./Vocalis/backend/.env
+  #   ports:
+  #     - "6000" # avaialble only internally
+  #   networks:
+  #     - web
+
+  nginx:
+    image: nginx:latest
+    container_name: nginx-proxy
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - certbot-etc:/etc/letsencrypt
+      - certbot-var:/var/lib/letsencrypt
+      - ./certbot/www:/var/www/certbot
+    depends_on:
+      - backend
+      # - vocalis
+    restart: always
+    networks:
+      - web
+
+  certbot:
+    image: certbot/certbot
+    container_name: certbot
+    volumes:
+      - certbot-etc:/etc/letsencrypt
+      - certbot-var:/var/lib/letsencrypt
+      - ./certbot/www:/var/www/certbot
+    entrypoint: /bin/sh -c
+    command: >
+      "trap exit TERM; while :; do sleep 12h & wait $${!}; certbot renew; done"
+    networks:
+      - web
+  
+volumes:
+  certbot-etc:
+  certbot-var:
+
+networks:
+  web:
+    driver: bridge
