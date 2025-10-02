@@ -8,7 +8,7 @@ services:
     env_file:
       - ./backend/.env
     volumes:
-      - .:/app
+      - ./backend:/app
     ports:
       - "8000"
     # depends_on:
