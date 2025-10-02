@@ -1,0 +1,5 @@
+  sudo docker compose run --rm --entrypoint certbot certbot certonly \
+    --webroot --webroot-path=/var/www/certbot \
+    --email admin@yourdomain.com \
+    --agree-tos --no-eff-email \
+    -d prezently.centralindia.cloudapp.azure.com
