@@ -1,0 +1,11 @@
+scrapy
+bs4
+selenium 
+webdriver-manager
+langchain
+langchain_openai
+pymongo
+flask
+html2text
+fastapi
+uvicorn

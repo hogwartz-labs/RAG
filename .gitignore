@@ -9,4 +9,3 @@ recordings/*
 *node_modules*
 
 prompts.json
-**/*.txt
