@@ -38,7 +38,7 @@ const ChatInterface = () => {
     setCurrentResponse(''); // Clear previous response
 
     try {
-      const res = await fetchWithTimeout("http://localhost:8000/query/stream", {
+      const res = await fetchWithTimeout("https://hogwatrz-1.eastus.cloudapp.azure.com/query/stream", {
         method: "POST",
         headers: { "Content-Type": "application/json",
           "x-api-key": companyId 
